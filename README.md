@@ -1,18 +1,178 @@
-# 💫 About Me:
-🚀 Third-year Computer Science undergraduate at Jaypee Institute of Information Technology (2023–2027) passionate about AI/ML, cybersecurity, and full-stack web development.<br><br>Currently working on projects involving Graph Neural Networks and AI-powered Intrusion Detection Systems using PyTorch and deep learning. Skilled in Python, C++, JavaScript, React.js, Git, and machine learning fundamentals.<br><br>I enjoy solving DSA problems, participating in competitive programming contests, and building scalable real-world applications.<br>
+﻿<div align="center">
 
+  <!-- Dynamic Typing Neon Header Banner -->
+  <a href="https://github.com/LakshayBitWizard">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=550&lines=Hi+%F0%9F%91%8B%2C+I'm+Lakshay+Khanna;AI+%2F+ML+%26+DevSecOps+Engineer;Building+Autonomous+Agentic+Systems;Full-Stack+Architect+%26+Problem+Solver" alt="Typing SVG Banner" />
+  </a>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/lakshay-khanna-28b24129b/) 
+  <p align="center">
+    <strong>B.Tech Computer Science & Engineering</strong> @ Jaypee Institute of Information Technology (2023–2027)<br/>
+    <em>Passionate about Autonomous Agents, Deep Learning, Cyber Threat Intelligence & Resilient Systems</em>
+  </p>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=LakshayBitWizard&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=LakshayBitWizard&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=LakshayBitWizard&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+  <!-- Social & Contact Badges -->
+  <p align="center">
+    <a href="https://www.linkedin.com/in/lakshay-khanna-28b24129b/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:lakshaykhanna2005@gmail.com">
+      <img src="https://img.shields.io/badge/Email-lakshaykhanna2005-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=LakshayBitWizard&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  </p>
+
+</div>
 
 ---
-[![](https://komarev.com/ghpvc/?username=LakshayBitWizard&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 👨‍💻 About Me
+
+- 🔭 **Current Focus**: Architecting **autonomous multi-agent security pipelines**, Graph Neural Networks, and neuro-symbolic AST code remediation.
+- 🛡️ **Core Domain**: Bridging the gap between **AI/ML Reasoning** and **Production DevSecOps** with deterministic, zero-hallucination tools.
+- 💡 **Engineering Philosophy**: Build resilient, self-healing systems that operate reliably at scale on zero-overhead architectures.
+- ⚡ **Fun Fact**: Strong advocate of Concrete Syntax Trees (CST) over stochastic LLM code rewrites!
+
+---
+
+### 🚀 Featured Engineering Projects
+
+<table>
+  <!-- Project 1: CodeGuardian AI -->
+  <tr>
+    <td colspan="2" width="100%" valign="top">
+      <h3>🛡️ <a href="https://github.com/LakshayBitWizard/codeguardian">CodeGuardian AI — Autonomous Multi-Agent DevSecOps Platform</a></h3>
+      <p>
+        An enterprise-grade autonomous code review pipeline that intercepts GitHub PR webhooks, fires parallel specialist agents (Security, Quality, Documentation, Testing) via <strong>LangGraph</strong>, identifies vulnerabilities with <strong>Semgrep</strong>, and generates deterministic, syntax-perfect 1-click remediation PRs using <strong>LibCST</strong>.
+      </p>
+      <ul>
+        <li><strong>Deterministic Remediation:</strong> Zero syntax hallucinations using Python Concrete Syntax Trees (LibCST) instead of probabilistic LLM rewrites.</li>
+        <li><strong>Optimized Token Budgeting:</strong> Sub-second LangGraph routing with Groq LPU inference delivering ~3.0s total review latency at $0/month BOM.</li>
+        <li><strong>RAG Policy Grounding:</strong> In-memory ChromaDB vector search (<120ms) ensuring strict compliance with organizational security standards.</li>
+      </ul>
+      <p>
+        <code>FastAPI</code> • <code>LangGraph</code> • <code>Next.js 14</code> • <code>Semgrep</code> • <code>LibCST</code> • <code>ChromaDB</code> • <code>Groq LPU</code>
+      </p>
+    </td>
+  </tr>
+
+  <!-- Row 2: SecureNet AI & Watchboard -->
+  <tr>
+    <!-- Project 2: SecureNet AI -->
+    <td width="50%" valign="top">
+      <h3 align="center">🧠 SecureNet AI</h3>
+      <p align="center"><em>Deep Learning Network Intrusion Detection System (NIDS)</em></p>
+      <ul>
+        <li>Trained a custom <strong>1D-ResNet (PyTorch)</strong> with residual skip connections on 122-dim flow vectors (NSL-KDD) to classify 5 threat classes (DoS, Probe, R2L, U2R, Normal).</li>
+        <li>Live packet sniffer using <strong>Scapy raw sockets</strong> in 2s sliding windows with heuristic verification & regex payload inspection.</li>
+        <li>Interactive SecOps dashboard in <strong>React 18 + TypeScript + Tailwind</strong> featuring model drift tracking and SHA-256 weight integrity monitoring.</li>
+      </ul>
+      <p align="center">
+        <code>PyTorch</code> • <code>Scapy</code> • <code>Flask</code> • <code>React 18</code> • <code>TypeScript</code> • <code>Tailwind CSS</code>
+      </p>
+    </td>
+
+    <!-- Project 3: Watchboard -->
+    <td width="50%" valign="top">
+      <h3 align="center">📊 Watchboard</h3>
+      <p align="center"><em>Full-Stack Product Price & Dynamic Stock Tracker</em></p>
+      <ul>
+        <li>Resilient headless browser automation using <strong>Playwright</strong> that bypasses anti-bot hover traps, dwell-time checks, and cookie banners.</li>
+        <li>Automated 2-hour cron sweep scheduler using external webhooks and bearer tokens to prevent free-tier container sleep.</li>
+        <li>Full audit logging with per-scrape HTTP latency, response times, and interactive analytics dashboard backed by <strong>Supabase PostgreSQL</strong>.</li>
+      </ul>
+      <p align="center">
+        <a href="https://ine-price-tracker-lake.vercel.app/" target="_blank">
+          <img src="https://img.shields.io/badge/Live_Dashboard-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/>
+        </a>
+        <a href="https://ine-price-tracker-sr7i.onrender.com" target="_blank">
+          <img src="https://img.shields.io/badge/API_Backend-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render"/>
+        </a>
+      </p>
+      <p align="center">
+        <code>Django 5</code> • <code>React.js</code> • <code>Playwright</code> • <code>PostgreSQL</code> • <code>Supabase</code> • <code>Vercel</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛠️ Tech Stack & Skills
+
+<div align="left">
+
+#### 🧠 Languages & Core Fundamentals
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/HTML5/CSS3-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS"/>
+</p>
+
+#### 🤖 AI, Agents & Machine Learning
+<p>
+  <img src="https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
+  <img src="https://img.shields.io/badge/ChromaDB-FF6600?style=flat-square&logo=databricks&logoColor=white" alt="ChromaDB"/>
+  <img src="https://img.shields.io/badge/Groq_LPU-F55036?style=flat-square&logo=fastapi&logoColor=white" alt="Groq LPU"/>
+  <img src="https://img.shields.io/badge/NumPy_/_Pandas-013243?style=flat-square&logo=pandas&logoColor=white" alt="Data"/>
+</p>
+
+#### 🌐 Full-Stack & Systems Architecture
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/Django_5-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+  <img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"/>
+</p>
+
+#### 🛡️ DevSecOps, Cloud & Database
+<p>
+  <img src="https://img.shields.io/badge/Semgrep_SAST-000000?style=flat-square&logo=securityscorecard&logoColor=white" alt="Semgrep"/>
+  <img src="https://img.shields.io/badge/LibCST_AST-3776AB?style=flat-square&logo=python&logoColor=white" alt="LibCST"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git_%26_GitHub-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
+</p>
+
+</div>
+
+---
+
+### 📊 GitHub Activity & Analytics
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <!-- Most Used Languages Card (Neon Tokyonight theme) -->
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LakshayBitWizard&layout=compact&theme=tokyonight&hide_border=true&title_color=00F0FF&text_color=9ECE6A" height="175" alt="Top Languages" />
+      </td>
+      <td>
+        <!-- Streak Stats (Neon Tokyonight theme) -->
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=LakshayBitWizard&theme=tokyonight&hide_border=true&ring=00F0FF&fire=00F0FF&currStreakNum=00F0FF&sideNums=7AA2F7" height="175" alt="Streak Stats" />
+      </td>
+    </tr>
+  </table>
+
+  <!-- Contribution Snake Animation -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
+
+---
+
+<div align="center">
+  <sub>⚡ Designed & Engineered with precision by <strong>Lakshay Khanna</strong> ⚡</sub>
+</div>

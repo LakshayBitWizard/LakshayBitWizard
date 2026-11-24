@@ -36,114 +36,83 @@
 
 ### 🚀 Featured Engineering Projects
 
-<table>
-  <!-- Project 1: CodeGuardian AI -->
-  <tr>
-    <td colspan="2" width="100%" valign="top">
-      <h3>🛡️ <a href="https://github.com/LakshayBitWizard/codeguardian">CodeGuardian AI — Autonomous Multi-Agent DevSecOps Platform</a></h3>
-      <p>
-        An enterprise-grade autonomous code review pipeline that intercepts GitHub PR webhooks, fires parallel specialist agents (Security, Quality, Documentation, Testing) via <strong>LangGraph</strong>, identifies vulnerabilities with <strong>Semgrep</strong>, and generates deterministic, syntax-perfect 1-click remediation PRs using <strong>LibCST</strong>.
-      </p>
-      <ul>
-        <li><strong>Deterministic Remediation:</strong> Zero syntax hallucinations using Python Concrete Syntax Trees (LibCST) instead of probabilistic LLM rewrites.</li>
-        <li><strong>Optimized Token Budgeting:</strong> Sub-second LangGraph routing with Groq LPU inference delivering ~3.0s total review latency at $0/month BOM.</li>
-        <li><strong>RAG Policy Grounding:</strong> In-memory ChromaDB vector search (<120ms) ensuring strict compliance with organizational security standards.</li>
-      </ul>
-      <p>
-        <code>FastAPI</code> • <code>LangGraph</code> • <code>Next.js 14</code> • <code>Semgrep</code> • <code>LibCST</code> • <code>ChromaDB</code> • <code>Groq LPU</code>
-      </p>
-    </td>
-  </tr>
+#### 🛡️ [CodeGuardian AI — Autonomous Multi-Agent DevSecOps Platform](https://github.com/LakshayBitWizard/codeguardian)
+> An enterprise-grade autonomous code review pipeline that intercepts GitHub PR webhooks, fires parallel specialist agents (Security, Quality, Documentation, Testing) via **LangGraph**, identifies vulnerabilities with **Semgrep**, and generates deterministic 1-click remediation PRs using **LibCST**.
 
-  <!-- Row 2: SecureNet AI & Watchboard -->
-  <tr>
-    <!-- Project 2: SecureNet AI -->
-    <td width="50%" valign="top">
-      <h3 align="center">🧠 SecureNet AI</h3>
-      <p align="center"><em>Deep Learning Network Intrusion Detection System (NIDS)</em></p>
-      <ul>
-        <li>Trained a custom <strong>1D-ResNet (PyTorch)</strong> with residual skip connections on 122-dim flow vectors (NSL-KDD) to classify 5 threat classes (DoS, Probe, R2L, U2R, Normal).</li>
-        <li>Live packet sniffer using <strong>Scapy raw sockets</strong> in 2s sliding windows with heuristic verification & regex payload inspection.</li>
-        <li>Interactive SecOps dashboard in <strong>React 18 + TypeScript + Tailwind</strong> featuring model drift tracking and SHA-256 weight integrity monitoring.</li>
-      </ul>
-      <p align="center">
-        <code>PyTorch</code> • <code>Scapy</code> • <code>Flask</code> • <code>React 18</code> • <code>TypeScript</code> • <code>Tailwind CSS</code>
-      </p>
-    </td>
+- **Deterministic Remediation:** Zero syntax hallucinations using Python Concrete Syntax Trees (LibCST) instead of probabilistic LLM rewrites.
+- **Optimized Token Budgeting:** Sub-second LangGraph routing with Groq LPU inference delivering ~3.0s total review latency at $0/month BOM.
+- **RAG Policy Grounding:** In-memory ChromaDB vector search (<120ms) ensuring strict compliance with organizational security standards.
 
-    <!-- Project 3: Watchboard -->
-    <td width="50%" valign="top">
-      <h3 align="center">📊 Watchboard</h3>
-      <p align="center"><em>Full-Stack Product Price & Dynamic Stock Tracker</em></p>
-      <ul>
-        <li>Resilient headless browser automation using <strong>Playwright</strong> that bypasses anti-bot hover traps, dwell-time checks, and cookie banners.</li>
-        <li>Automated 2-hour cron sweep scheduler using external webhooks and bearer tokens to prevent free-tier container sleep.</li>
-        <li>Full audit logging with per-scrape HTTP latency, response times, and interactive analytics dashboard backed by <strong>Supabase PostgreSQL</strong>.</li>
-      </ul>
-      <p align="center">
-        <a href="https://ine-price-tracker-lake.vercel.app/" target="_blank">
-          <img src="https://img.shields.io/badge/Live_Dashboard-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/>
-        </a>
-        <a href="https://ine-price-tracker-sr7i.onrender.com" target="_blank">
-          <img src="https://img.shields.io/badge/API_Backend-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render"/>
-        </a>
-      </p>
-      <p align="center">
-        <code>Django 5</code> • <code>React.js</code> • <code>Playwright</code> • <code>PostgreSQL</code> • <code>Supabase</code> • <code>Vercel</code>
-      </p>
-    </td>
-  </tr>
-</table>
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://major-part-i.vercel.app/dashboard)
+[![API Documentation](https://img.shields.io/badge/API_Docs-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://major-part-i.onrender.com/docs)
+[![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LakshayBitWizard/codeguardian)
+
+`FastAPI` • `LangGraph` • `Next.js 14` • `Semgrep` • `LibCST` • `ChromaDB` • `Groq LPU`
+
+<br/>
+
+#### 🧠 [SecureNet AI — Deep Learning Network Intrusion Detection System](https://github.com/LakshayBitWizard/Network-Intrusion-Detection-System)
+> A full-stack, deep learning–powered NIDS pairing a custom 1D-ResNet trained on the NSL-KDD benchmark with a live packet-sniffing engine and an interactive React + TypeScript cybersecurity operations dashboard.
+
+- **Deep Learning Classification:** 1D-ResNet with residual skip connections trained on 122-dim flow vectors to classify 5 threat classes (`DoS`, `Probe`, `R2L`, `U2R`, `Normal`).
+- **Live Packet Capture:** Native raw-socket sniffing via **Scapy** in 2s sliding windows with heuristic verification & regex payload inspection.
+- **Observability Dashboard:** Real-time SecOps dashboard in **React 18 + TypeScript + Tailwind** with model drift tracking and SHA-256 weight integrity monitoring.
+
+[![GitHub Repo](https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LakshayBitWizard/Network-Intrusion-Detection-System)
+
+`PyTorch` • `Scapy` • `Flask` • `React 18` • `TypeScript` • `Tailwind CSS`
+
+<br/>
+
+#### 📊 [Watchboard — Full-Stack Product Price & Dynamic Stock Tracker](https://ine-price-tracker-lake.vercel.app/)
+> A resilient, full-stack product price and stock monitoring platform that continuously monitors e-commerce storefronts, solves dynamic anti-bot hover traps, and logs every scrape outcome with sub-second accuracy.
+
+- **Resilient Headless Scraper:** Automated browser pipeline via **Playwright** handling cookie consent, cursor movement, dwell-time anti-bot checks, and exponential backoff.
+- **Automated Scheduling:** 2-hour cron sweep scheduler using external authenticated webhooks to prevent free-tier container sleep.
+- **Audit Logging & Analytics:** Full per-scrape audit trails with HTTP response times, status codes, and stock trend graphs on **Supabase PostgreSQL**.
+
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ine-price-tracker-lake.vercel.app/)
+[![API Backend](https://img.shields.io/badge/API_Backend-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://ine-price-tracker-sr7i.onrender.com)
+
+`Django 5` • `React.js` • `Playwright` • `PostgreSQL` • `Supabase` • `Vercel`
 
 ---
 
 ### 🛠️ Tech Stack & Skills
 
-<div align="left">
-
 #### 🧠 Languages & Core Fundamentals
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/HTML5/CSS3-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS"/>
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![HTML5/CSS3](https://img.shields.io/badge/HTML5/CSS3-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 #### 🤖 AI, Agents & Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
-  <img src="https://img.shields.io/badge/ChromaDB-FF6600?style=flat-square&logo=databricks&logoColor=white" alt="ChromaDB"/>
-  <img src="https://img.shields.io/badge/Groq_LPU-F55036?style=flat-square&logo=fastapi&logoColor=white" alt="Groq LPU"/>
-  <img src="https://img.shields.io/badge/NumPy_/_Pandas-013243?style=flat-square&logo=pandas&logoColor=white" alt="Data"/>
-</p>
+![LangChain](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=flat-square&logo=databricks&logoColor=white)
+![Groq LPU](https://img.shields.io/badge/Groq_LPU-F55036?style=flat-square&logo=fastapi&logoColor=white)
+![Pandas](https://img.shields.io/badge/NumPy_/_Pandas-013243?style=flat-square&logo=pandas&logoColor=white)
 
 #### 🌐 Full-Stack & Systems Architecture
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Django_5-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
-  <img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"/>
-</p>
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Django 5](https://img.shields.io/badge/Django_5-092E20?style=flat-square&logo=django&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 #### 🛡️ DevSecOps, Cloud & Database
-<p>
-  <img src="https://img.shields.io/badge/Semgrep_SAST-000000?style=flat-square&logo=securityscorecard&logoColor=white" alt="Semgrep"/>
-  <img src="https://img.shields.io/badge/LibCST_AST-3776AB?style=flat-square&logo=python&logoColor=white" alt="LibCST"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git_%26_GitHub-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
-</p>
-
-</div>
+![Semgrep](https://img.shields.io/badge/Semgrep_SAST-000000?style=flat-square&logo=securityscorecard&logoColor=white)
+![LibCST](https://img.shields.io/badge/LibCST_AST-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git_%26_GitHub-F05032?style=flat-square&logo=git&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 

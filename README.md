@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- AI Neural Command Center Hero Visual -->
-  <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/hero-neural-command.jpg" width="100%" alt="AI Neural Command Center - Lakshay Khanna" />
+  <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/hero-neural-command.gif" width="100%" alt="AI Neural Command Center - Lakshay Khanna" />
 
   <br/><br/>
 
@@ -168,5 +168,5 @@
 ---
 
 <div align="center">
-  <sub>⚡ AI Neural Command Center &bull; Designed & Engineered by <strong>Lakshay Khanna</strong> ⚡</sub>
+  <sub>âš¡ AI Neural Command Center &bull; Designed & Engineered by <strong>Lakshay Khanna</strong> âš¡</sub>
 </div>

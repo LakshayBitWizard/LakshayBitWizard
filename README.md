@@ -2,7 +2,7 @@
 
   <!-- AI Neural Command Center Animated Hero -->
   <a href="https://github.com/LakshayBitWizard">
-    <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/hero-neural-command.gif" width="100%" alt="AI Neural Command Center - Lakshay Khanna" />
+    <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/neural-command-center.svg" width="100%" alt="AI Neural Command Center - Lakshay Khanna" />
   </a>
 
   <br/><br/>
@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/Gmail-lakshaykhanna2005-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>&nbsp;
   <a href="https://github.com/LakshayBitWizard?tab=repositories">
-    <img src="https://img.shields.io/badge/Public_Repositories-50+-00f0ff?style=for-the-badge&logo=github&logoColor=black" alt="Repositories" />
+    <img src="https://img.shields.io/badge/Explore-Public_Repositories-00f0ff?style=for-the-badge&logo=github&logoColor=black" alt="Explore public repositories" />
   </a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=LakshayBitWizard&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 

@@ -47,7 +47,7 @@
 
   <g mask="url(#fadeMask)">
     <!-- Row 1: AI, Agents & Security (scrolls left) -->
-    <g class="row1" transform="translate(0, 12)">
+    <g transform="translate(0, 12)"><g class="row1">
       <!-- Set A -->
       <g transform="translate(0, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#00f0ff"/><text class="label" x="34" y="19">LangGraph</text></g>
       <g transform="translate(166, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#ee4c2c"/><text class="label" x="34" y="19">PyTorch 2.0</text></g>
@@ -68,8 +68,9 @@
       <g transform="translate(2490, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#f7931e"/><text class="label" x="34" y="19">Scikit-Learn</text></g>
     </g>
 
+    </g>
     <!-- Row 2: Full-Stack, Cloud & Core (scrolls right) -->
-    <g class="row2" transform="translate(0, 64)">
+    <g transform="translate(0, 64)"><g class="row2">
       <!-- Set A -->
       <g transform="translate(0, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#009688"/><text class="label" x="34" y="19">FastAPI</text></g>
       <g transform="translate(166, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#ffffff"/><text class="label" x="34" y="19">Next.js 14</text></g>
@@ -88,6 +89,8 @@
       <g transform="translate(2158, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#2496ed"/><text class="label" x="34" y="19">Docker</text></g>
       <g transform="translate(2324, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#092e20"/><text class="label" x="34" y="19">Django 5</text></g>
       <g transform="translate(2490, 0)"><rect class="pill" width="150" height="38"/><circle cx="20" cy="19" r="5" fill="#46e3b7"/><text class="label" x="34" y="19">Vercel / Render</text></g>
+    </g>
+    </g>
     </g>
   </g>
 </svg>

@@ -1,95 +1,30 @@
 <div align="center">
 
-  <!-- HUD Top Header Bar -->
-  <table width="100%">
-    <tr>
-      <td align="left">
-        <code>&gt; LakshayBitWizard@github ~/profile</code>
-      </td>
-      <td align="right">
-        <code><span style="color:#00ff88;">&#9679; ONLINE</span> &nbsp;|&nbsp; BUILDING &bull; LEARNING &bull; INNOVATING</code>
-      </td>
-    </tr>
-  </table>
+  <!-- AI Neural Command Center Animated Hero -->
+  <a href="https://github.com/LakshayBitWizard">
+    <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/hero-neural-command.gif" width="100%" alt="AI Neural Command Center - Lakshay Khanna" />
+  </a>
 
-  <!-- Dual-Pane Cyberpunk Command Center -->
-  <table width="100%">
-    <tr>
-      <!-- Left Pane: Holographic Brain & Domain Tags -->
-      <td width="46%" align="center" valign="middle">
-        <code>&gt; INITIALIZING AI PROFILE...</code>
-        <br/><br/>
-        <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/hero-neural-command.gif" width="380" alt="Holographic AI Neural Brain" />
-        <br/><br/>
-        <p>
-          <img src="https://img.shields.io/badge/Agentic_AI-00f0ff?style=flat-square&logo=openai&logoColor=black"/>
-          <img src="https://img.shields.io/badge/Deep_Learning-ee4c2c?style=flat-square&logo=pytorch&logoColor=white"/>
-          <img src="https://img.shields.io/badge/DevSecOps-10b981?style=flat-square&logo=securityscorecard&logoColor=white"/>
-          <img src="https://img.shields.io/badge/Full--Stack-7c3aed?style=flat-square&logo=react&logoColor=white"/>
-        </p>
-      </td>
-
-      <!-- Right Pane: Terminal System Info & Core Stacks -->
-      <td width="54%" align="left" valign="top">
-        <h4>&gt; SYSTEM.INFO</h4>
-        <pre>
-<strong>Name</strong>       : Lakshay Khanna
-<strong>Role</strong>       : AI/ML Engineer & DevSecOps Systems Architect
-<strong>Education</strong>  : B.Tech CSE @ JIIT Noida (2023–2027)
-<strong>Focus</strong>      : Autonomous Agents • GNNs • AppSec
-<strong>Philosophy</strong> : "Deterministic Code. Intelligent Systems."
-        </pre>
-
-        <h4>&gt; CORE TECH STACK</h4>
-        <p>
-          <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/></a>
-          <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/></a>
-          <a href="https://github.com/langchain-ai/langgraph"><img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/></a>
-          <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/></a>
-          <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/></a>
-          <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/></a>
-          <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/></a>
-        </p>
-
-        <h4>&gt; CURRENTLY.EXPLORING</h4>
-        <ul>
-          <li><strong>Autonomous Multi-Agent Systems & Vector RAG</strong> (LangGraph, ChromaDB)</li>
-          <li><strong>Real-Time Threat Detection & Packet Sniffing</strong> (PyTorch ResNet, Scapy)</li>
-          <li><strong>Deterministic AST Vulnerability Remediation</strong> (LibCST)</li>
-          <li><strong>Resilient Headless Web Automation & Stream Scraping</strong> (Playwright)</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-
-  <!-- Bottom Interactive Telemetry & Quick Connect Bar -->
-  <table width="100%">
-    <tr>
-      <td width="33%" align="center">
-        <a href="https://github.com/LakshayBitWizard?tab=repositories">
-          <img src="https://img.shields.io/github/repo-count/LakshayBitWizard?label=PUBLIC%20REPOSITORIES&style=for-the-badge&color=00f0ff&logo=github&logoColor=black" alt="Public Repos" />
-        </a>
-      </td>
-      <td width="34%" align="center">
-        <code><strong>&lt; DREAM &bull; CODE &bull; BUILD &gt;</strong></code>
-      </td>
-      <td width="33%" align="center">
-        <a href="https://www.linkedin.com/in/lakshay-khanna-28b24129b/" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>&nbsp;
-        <a href="mailto:lakshaykhanna2005@gmail.com">
-          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <br/>
+  <br/><br/>
 
   <!-- Dynamic Typing Live HUD Stream -->
   <a href="https://github.com/LakshayBitWizard">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&repeat=true&width=620&lines=Building+Autonomous+Agentic+Systems+%F0%9F%A4%96;DevSecOps+%26+Neuro-Symbolic+Code+Repair+%F0%9F%9B%A1%EF%B8%8F;Deep+Learning+%26+Cyber+Threat+Intelligence+%F0%9F%A7%A0;Full-Stack+Architect+%26+Problem+Solver+%F0%9F%9A%80" alt="Live HUD Stream" />
   </a>
+
+  <br/><br/>
+
+  <!-- Interactive Quick Actions & Verified Badges -->
+  <a href="https://www.linkedin.com/in/lakshay-khanna-28b24129b/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>&nbsp;
+  <a href="mailto:lakshaykhanna2005@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-lakshaykhanna2005-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>&nbsp;
+  <a href="https://github.com/LakshayBitWizard?tab=repositories">
+    <img src="https://img.shields.io/badge/Public_Repositories-50+-00f0ff?style=for-the-badge&logo=github&logoColor=black" alt="Repositories" />
+  </a>&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=LakshayBitWizard&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
 

@@ -10,7 +10,7 @@
 
   <br/><br/>
 
-  <strong>B.Tech Computer Science & Engineering</strong> @ Jaypee Institute of Information Technology (2023â€“2027)
+  <strong>B.Tech Computer Science & Engineering</strong> @ Jaypee Institute of Information Technology (2023-2027)
 
   <br/><br/>
 
@@ -27,12 +27,12 @@
 
 ---
 
-### ðŸ‘¨â€ðŸ’» About Me
+### :man_technologist: About Me
 
 ```yaml
 name: Lakshay Khanna
 role: AI/ML Engineer & DevSecOps Systems Architect
-education: B.Tech CSE @ JIIT Noida (2023â€“2027)
+education: B.Tech CSE @ JIIT Noida (2023-2027)
 focus_areas:
   - Autonomous Multi-Agent Pipelines (LangGraph)
   - Deep Residual Learning (1D-ResNet / PyTorch)
@@ -43,17 +43,17 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 
 ---
 
-### ðŸš€ Featured Engineering Projects
+### :rocket: Featured Engineering Projects
 
 <details open>
-<summary><b>ðŸ›¡ï¸ CodeGuardian AI â€” Autonomous Multi-Agent DevSecOps Platform</b></summary>
+<summary><b>:shield: CodeGuardian AI - Autonomous Multi-Agent DevSecOps Platform</b></summary>
 <br/>
 
 > An enterprise-grade autonomous code review pipeline that intercepts GitHub PR webhooks, fires parallel specialist agents (Security, Quality, Documentation, Testing) via **LangGraph**, identifies vulnerabilities with **Semgrep**, and generates deterministic, syntax-perfect 1-click remediation PRs using **LibCST**.
 
-- âš¡ **Deterministic Remediation:** Zero syntax hallucinations using Python Concrete Syntax Trees (LibCST) instead of probabilistic LLM rewrites.
-- â±ï¸ **~3.0s Pipeline Latency:** Sub-second LangGraph routing with Groq LPU inference delivering enterprise speed at $0/month BOM.
-- ðŸ§  **RAG Policy Grounding:** In-memory ChromaDB vector search (<120ms) ensuring strict compliance with organizational security standards.
+- :zap: **Deterministic Remediation:** Zero syntax hallucinations using Python Concrete Syntax Trees (LibCST) instead of probabilistic LLM rewrites.
+- :stopwatch: **~3.0s Pipeline Latency:** Sub-second LangGraph routing with Groq LPU inference delivering enterprise speed at $0/month BOM.
+- :brain: **RAG Policy Grounding:** In-memory ChromaDB vector search (<120ms) ensuring strict compliance with organizational security standards.
 
 <br/>
 
@@ -63,20 +63,20 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 
 <br/>
 
-`FastAPI` â€¢ `LangGraph` â€¢ `Next.js 14` â€¢ `Semgrep` â€¢ `LibCST` â€¢ `ChromaDB` â€¢ `Groq LPU`
+`FastAPI` | `LangGraph` | `Next.js 14` | `Semgrep` | `LibCST` | `ChromaDB` | `Groq LPU`
 </details>
 
 <br/>
 
 <details open>
-<summary><b>ðŸ§  SecureNet AI â€” Deep Learning Network Intrusion Detection System</b></summary>
+<summary><b>:brain: SecureNet AI - Deep Learning Network Intrusion Detection System</b></summary>
 <br/>
 
-> A full-stack, deep learningâ€“powered NIDS pairing a custom 1D-ResNet trained on the NSL-KDD benchmark with a live packet-sniffing engine and an interactive React + TypeScript cybersecurity operations dashboard.
+> A full-stack, deep learning-powered NIDS pairing a custom 1D-ResNet trained on the NSL-KDD benchmark with a live packet-sniffing engine and an interactive React + TypeScript cybersecurity operations dashboard.
 
-- ðŸŽ¯ **Deep Learning Classification:** 1D-ResNet with residual skip connections trained on 122-dim flow vectors to classify 5 threat classes (`DoS`, `Probe`, `R2L`, `U2R`, `Normal`).
-- ðŸ“¡ **Live Packet Sniffing:** Native raw-socket packet capture via **Scapy** in 2s sliding windows with heuristic fallback and regex payload inspection.
-- ðŸ“Š **SecOps Dashboard:** Real-time dashboard in **React 18 + TypeScript + Tailwind** with model drift tracking and SHA-256 weight integrity verification.
+- :dart: **Deep Learning Classification:** 1D-ResNet with residual skip connections trained on 122-dim flow vectors to classify 5 threat classes (`DoS`, `Probe`, `R2L`, `U2R`, `Normal`).
+- :satellite: **Live Packet Sniffing:** Native raw-socket packet capture via **Scapy** in 2s sliding windows with heuristic fallback and regex payload inspection.
+- :bar_chart: **SecOps Dashboard:** Real-time dashboard in **React 18 + TypeScript + Tailwind** with model drift tracking and SHA-256 weight integrity verification.
 
 <br/>
 
@@ -84,20 +84,20 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 
 <br/>
 
-`PyTorch` â€¢ `Scapy` â€¢ `Flask` â€¢ `React 18` â€¢ `TypeScript` â€¢ `Tailwind CSS`
+`PyTorch` | `Scapy` | `Flask` | `React 18` | `TypeScript` | `Tailwind CSS`
 </details>
 
 <br/>
 
 <details open>
-<summary><b>ðŸ“ˆ Watchboard â€” Full-Stack Product Price & Dynamic Stock Tracker</b></summary>
+<summary><b>:chart_with_upwards_trend: Watchboard - Full-Stack Product Price & Dynamic Stock Tracker</b></summary>
 <br/>
 
 > A resilient, full-stack product price and stock monitoring platform that continuously monitors e-commerce storefronts, solves dynamic anti-bot hover traps, and logs every scrape outcome with sub-second accuracy.
 
-- ðŸ¤– **Resilient Headless Scraper:** Automated browser pipeline via **Playwright** handling cookie consent, cursor movement, dwell-time anti-bot checks, and exponential backoff.
-- ðŸ” **Automated 2-Hour Scheduling:** External authenticated webhook cron sweeps preventing free-tier container sleep.
-- ðŸ” **Full Audit Logging:** Per-scrape HTTP latency, response times, status codes, and stock trend graphs on **Supabase PostgreSQL**.
+- :robot: **Resilient Headless Scraper:** Automated browser pipeline via **Playwright** handling cookie consent, cursor movement, dwell-time anti-bot checks, and exponential backoff.
+- :repeat: **Automated 2-Hour Scheduling:** External authenticated webhook cron sweeps preventing free-tier container sleep.
+- :mag: **Full Audit Logging:** Per-scrape HTTP latency, response times, status codes, and stock trend graphs on **Supabase PostgreSQL**.
 
 <br/>
 
@@ -106,25 +106,30 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 
 <br/>
 
-`Django 5` â€¢ `React.js` â€¢ `Playwright` â€¢ `PostgreSQL` â€¢ `Supabase` â€¢ `Vercel`
+`Django 5` | `React.js` | `Playwright` | `PostgreSQL` | `Supabase` | `Vercel`
 </details>
 
 ---
 
-### ðŸ› ï¸ Tech Stack & Skills
+### :hammer_and_wrench: Tech Stack & Skills
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/tech-marquee.svg" alt="Scrolling Tech Stack Marquee" />
+  <!-- Dynamic Neon Typing Tech Stream -->
+  <a href="https://github.com/LakshayBitWizard">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=800&color=00F0FF&center=true&vCenter=true&repeat=true&width=750&lines=%E2%96%B6+AI+%26+Agents%3A+LangGraph+%E2%80%A2+PyTorch+2.0+%E2%80%A2+ChromaDB+RAG+%E2%80%A2+Scikit-Learn+%E2%80%A2+Groq+LPU;%E2%96%B6+DevSecOps%3A+Semgrep+SAST+%E2%80%A2+LibCST+AST+Auto-Fixer+%E2%80%A2+Scapy+Packet+NIDS;%E2%96%B6+Full-Stack%3A+FastAPI+%E2%80%A2+Next.js+14+%E2%80%A2+React+18+%2B+TS+%E2%80%A2+Django+5+%E2%80%A2+Playwright;%E2%96%B6+Cloud+%26+Data%3A+PostgreSQL+%E2%80%A2+Supabase+%E2%80%A2+Docker+%E2%80%A2+Render+%E2%80%A2+Vercel+%E2%80%A2+Git" alt="Tech Stack Live Stream" />
+  </a>
 </div>
 
-#### ðŸ§  Languages & Core Fundamentals
+<br/>
+
+#### :brain: Languages & Core Fundamentals
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-#### ðŸ¤– AI, Agents & Machine Learning
+#### :robot: AI, Agents & Machine Learning
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
@@ -132,7 +137,7 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-#### ðŸŒ Full-Stack & Systems Architecture
+#### :globe_with_meridians: Full-Stack & Systems Architecture
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
@@ -140,7 +145,7 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
-#### ðŸ›¡ï¸ DevSecOps, Cloud & Database
+#### :shield: DevSecOps, Cloud & Database
 ![Semgrep](https://img.shields.io/badge/Semgrep-005571?style=flat-square&logo=securityscorecard&logoColor=white)
 ![LibCST](https://img.shields.io/badge/LibCST-Python--AST-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -152,7 +157,7 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 
 ---
 
-### ðŸ“Š GitHub Activity & Analytics
+### :bar_chart: GitHub Activity & Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LakshayBitWizard&layout=compact&theme=tokyonight&hide_border=true&title_color=00F0FF&text_color=9ECE6A" height="170" alt="Top Languages" />

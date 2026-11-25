@@ -1,20 +1,18 @@
-<!-- Animated Cyber Wave Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f0ff,100:7c3aed&height=220&section=header&text=Lakshay%20Khanna&fontColor=ffffff&fontSize=44&fontAlignY=35&desc=AI%20/%20ML%20%E2%80%A2%20DevSecOps%20%E2%80%A2%20Full-Stack%20Architect&descSize=18&descAlignY=55&animation=fadeIn" alt="Header" />
-
 <div align="center">
 
-  <!-- Dynamic Typing Animation Banner -->
+  <!-- AI Neural Command Center Hero Visual -->
+  <img src="https://raw.githubusercontent.com/LakshayBitWizard/LakshayBitWizard/main/assets/hero-neural-command.jpg" width="100%" alt="AI Neural Command Center - Lakshay Khanna" />
+
+  <br/><br/>
+
+  <!-- Dynamic Typing Live HUD Stream -->
   <a href="https://github.com/LakshayBitWizard">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F0FF&center=true&vCenter=true&repeat=true&width=550&lines=Building+Autonomous+Agentic+Systems+%F0%9F%A4%96;DevSecOps+%26+Neuro-Symbolic+Code+Repair+%F0%9F%9B%A1%EF%B8%8F;Deep+Learning+%26+Cyber+Threat+Intelligence+%F0%9F%A7%A0;Full-Stack+Architect+%26+Problem+Solver+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&repeat=true&width=620&lines=Building+Autonomous+Agentic+Systems+%F0%9F%A4%96;DevSecOps+%26+Neuro-Symbolic+Code+Repair+%F0%9F%9B%A1%EF%B8%8F;Deep+Learning+%26+Cyber+Threat+Intelligence+%F0%9F%A7%A0;Full-Stack+Architect+%26+Problem+Solver+%F0%9F%9A%80" alt="Live HUD Stream" />
   </a>
 
   <br/><br/>
 
-  <strong>B.Tech Computer Science & Engineering</strong> @ Jaypee Institute of Information Technology (2023-2027)
-
-  <br/><br/>
-
-  <!-- Social & Contact Badges -->
+  <!-- Quick Action & Social Badges -->
   <a href="https://www.linkedin.com/in/lakshay-khanna-28b24129b/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>&nbsp;
@@ -24,22 +22,6 @@
   <img src="https://komarev.com/ghpvc/?username=LakshayBitWizard&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
-
----
-
-### :man_technologist: About Me
-
-```yaml
-name: Lakshay Khanna
-role: AI/ML Engineer & DevSecOps Systems Architect
-education: B.Tech CSE @ JIIT Noida (2023-2027)
-focus_areas:
-  - Autonomous Multi-Agent Pipelines (LangGraph)
-  - Deep Residual Learning (1D-ResNet / PyTorch)
-  - Deterministic AST Code Remediation (LibCST)
-  - Resilient Headless Scraping & Stream Processing
-philosophy: "Deterministic code remediation over stochastic hallucinations."
-```
 
 ---
 
@@ -111,7 +93,7 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 
 ---
 
-### :hammer_and_wrench: Tech Stack & Skills
+### :hammer_and_wrench: Tech Stack & System Capabilities
 
 <div align="center">
   <!-- Dynamic Neon Typing Tech Stream -->
@@ -185,5 +167,6 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 
 ---
 
-<!-- Animated Cyber Wave Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f0ff,100:7c3aed&height=120&section=footer" alt="Footer" />
+<div align="center">
+  <sub>⚡ AI Neural Command Center &bull; Designed & Engineered by <strong>Lakshay Khanna</strong> ⚡</sub>
+</div>

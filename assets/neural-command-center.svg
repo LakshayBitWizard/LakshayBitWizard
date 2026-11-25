@@ -1,91 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680" role="img" aria-labelledby="title desc">
 <title id="title">Lakshay Khanna — AI Neural Command Center</title>
-<desc id="desc">Animated cyberpunk dashboard with a glowing neural network, system profile, and technology focus areas.</desc>
+<desc id="desc">Animated futuristic terminal with a cyan ASCII neural brain visualization and Lakshay Khanna's developer system profile.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b18"/><stop offset=".55" stop-color="#071426"/><stop offset="1" stop-color="#100b27"/></linearGradient>
-  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00eaff"/><stop offset="1" stop-color="#5577ff"/></linearGradient>
-  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5c72ff"/><stop offset="1" stop-color="#d05cff"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#00dfff" stop-opacity=".28"/><stop offset="1" stop-color="#00dfff" stop-opacity="0"/></radialGradient>
-  <filter id="neon" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#1a4261" stroke-opacity=".25" stroke-width="1"/></pattern>
-  <clipPath id="panel"><rect x="16" y="16" width="1368" height="488" rx="22"/></clipPath>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050914"/><stop offset=".55" stop-color="#081426"/><stop offset="1" stop-color="#100b25"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9a48ff"/><stop offset=".48" stop-color="#00eaff"/><stop offset="1" stop-color="#00d49a"/></linearGradient>
+ <radialGradient id="brainGlow"><stop stop-color="#00cfff" stop-opacity=".22"/><stop offset="1" stop-color="#00cfff" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="scan" width="4" height="5" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#7cbfff" stroke-opacity=".055"/></pattern>
+ <style>
+  .mono{font-family:'Courier New',monospace}.cyan{fill:#00eaff}.muted{fill:#92a9c5}.white{fill:#e5edf8}.green{fill:#00e6a0}
+  .brain{font-family:'Courier New',monospace;fill:#24cfff;letter-spacing:1.3px;filter:url(#glow)}
+  .label{font-family:'Courier New',monospace;fill:#00eaff;font-size:16px;font-weight:bold}
+  .value{font-family:'Courier New',monospace;fill:#e5edf8;font-size:17px}
+  .dots{fill:#54718f;opacity:.7}
+ </style>
 </defs>
-<rect width="1400" height="520" rx="24" fill="url(#bg)"/>
-<rect width="1400" height="520" rx="24" fill="url(#grid)"/>
-<g clip-path="url(#panel)">
-  <path d="M18 70H1382M18 445H1382" stroke="#00dfff" stroke-opacity=".38"/>
-  <path d="M22 20H1378V500H22Z" fill="none" stroke="url(#cyan)" stroke-width="2"/>
-  <path d="M22 20h60m-60 0v60M1378 20h-60m60 0v60M22 500h60m-60 0v-60M1378 500h-60m60 0v-60" fill="none" stroke="#00eaff" stroke-width="4" filter="url(#neon)"/>
-  <text x="54" y="51" fill="#00eaff" font-family="monospace" font-size="22" font-weight="bold">LakshayBitWizard@github</text>
-  <text x="360" y="51" fill="#a8a9ff" font-family="monospace" font-size="19">~/profile --live</text>
-  <circle cx="1090" cy="43" r="6" fill="#00ffb3"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
-  <text x="1108" y="50" fill="#00ffb3" font-family="monospace" font-size="16">ONLINE</text>
-  <text x="1192" y="50" fill="#9fb4d2" font-family="monospace" font-size="15">BUILDING • LEARNING</text>
-
-  <!-- Neural network chamber -->
-  <rect x="42" y="91" width="625" height="329" rx="16" fill="#061224" fill-opacity=".74" stroke="#087b9d" stroke-opacity=".9"/>
-  <text x="68" y="124" fill="#00eaff" font-family="monospace" font-size="17" letter-spacing="2">NEURAL CORE // ACTIVE</text>
-  <ellipse cx="350" cy="275" rx="230" ry="125" fill="url(#glow)"/>
-  <g fill="none" stroke="#138bd6" stroke-opacity=".75">
-    <ellipse cx="350" cy="278" rx="205" ry="78" transform="rotate(-19 350 278)"><animateTransform attributeName="transform" type="rotate" from="0 350 278" to="360 350 278" dur="36s" repeatCount="indefinite"/></ellipse>
-    <ellipse cx="350" cy="278" rx="205" ry="78" transform="rotate(58 350 278)" stroke="#885cff" stroke-opacity=".8"><animateTransform attributeName="transform" type="rotate" from="0 350 278" to="-360 350 278" dur="48s" repeatCount="indefinite"/></ellipse>
-    <ellipse cx="350" cy="278" rx="155" ry="118" stroke="#00eaff" stroke-opacity=".55"/>
-  </g>
-  <g stroke="#00dfff" stroke-opacity=".55" stroke-width="1.5" fill="none">
-    <path d="M220 224L278 190L333 213L386 177L444 214L480 268L438 326L376 349L320 326L262 345L216 294Z"/>
-    <path d="M278 190L262 345M333 213L320 326M386 177L376 349M220 224L480 268M216 294L444 214M262 345L438 326"/>
-    <path d="M220 224L333 213L480 268L376 349L216 294Z" stroke="#875cff"/>
-  </g>
-  <g fill="#00eaff" filter="url(#neon)">
-    <circle cx="220" cy="224" r="5"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
-    <circle cx="278" cy="190" r="5"><animate attributeName="r" values="4;7;4" dur="2.3s" repeatCount="indefinite"/></circle>
-    <circle cx="333" cy="213" r="6"><animate attributeName="r" values="5;8;5" dur="1.7s" repeatCount="indefinite"/></circle>
-    <circle cx="386" cy="177" r="5"><animate attributeName="r" values="4;7;4" dur="2.1s" repeatCount="indefinite"/></circle>
-    <circle cx="444" cy="214" r="5"><animate attributeName="r" values="4;7;4" dur="1.9s" repeatCount="indefinite"/></circle>
-    <circle cx="480" cy="268" r="6"><animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite"/></circle>
-    <circle cx="438" cy="326" r="5"><animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/></circle>
-    <circle cx="376" cy="349" r="5"><animate attributeName="r" values="4;7;4" dur="2.2s" repeatCount="indefinite"/></circle>
-    <circle cx="320" cy="326" r="6"><animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/></circle>
-    <circle cx="262" cy="345" r="5"><animate attributeName="r" values="4;7;4" dur="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="216" cy="294" r="5"><animate attributeName="r" values="4;7;4" dur="2.1s" repeatCount="indefinite"/></circle>
-  </g>
-  <g fill="#a6c8ff" font-family="monospace" font-size="14">
-    <text x="74" y="174">01 / MACHINE LEARNING</text><text x="462" y="174">02 / FULL-STACK</text>
-    <text x="74" y="385">03 / DEVSECOPS</text><text x="468" y="385">04 / AGENTIC AI</text>
-  </g>
-  <path d="M54 257H654" stroke="#00eaff" stroke-opacity=".08" stroke-width="2"/>
-  <path d="M54 257H654" stroke="#00eaff" stroke-width="2" opacity=".7" filter="url(#neon)">
-    <animate attributeName="transform" values="translate(0 -145);translate(0 145);translate(0 -145)" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".05;.8;.05" dur="5s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- Profile terminal -->
-  <rect x="690" y="91" width="668" height="329" rx="16" fill="#050d1b" fill-opacity=".88" stroke="#087b9d" stroke-width="1.5"/>
-  <text x="722" y="126" fill="#00eaff" font-family="monospace" font-size="19" font-weight="bold">&gt; SYSTEM.INFO</text>
-  <path d="M722 141H1328" stroke="#1b4563"/>
-  <g font-family="monospace" font-size="17">
-    <text x="722" y="177" fill="#00dfff">NAME</text><text x="850" y="177" fill="#dceaff">Lakshay Khanna</text>
-    <text x="722" y="211" fill="#00dfff">ROLE</text><text x="850" y="211" fill="#dceaff">B.Tech CSE • AI/ML &amp; Full-Stack</text>
-    <text x="722" y="245" fill="#00dfff">EDUCATION</text><text x="850" y="245" fill="#dceaff">JIIT Noida • 2023–2027</text>
-    <text x="722" y="279" fill="#00dfff">FOCUS</text><text x="850" y="279" fill="#dceaff">Agentic AI • Deep Learning • DevSecOps</text>
-  </g>
-  <path d="M722 301H1328" stroke="#1b4563"/>
-  <text x="722" y="337" fill="#00eaff" font-family="monospace" font-size="18" font-weight="bold">&gt; CURRENT TOOLKIT</text>
-  <g font-family="monospace" font-size="16" fill="#c5d8ff">
-    <text x="722" y="370">Python  /  C++  /  SQL  /  TypeScript</text>
-    <text x="722" y="398">PyTorch  /  LangGraph  /  FastAPI  /  React</text>
-  </g>
-  <text x="1325" y="398" fill="#b36cff" font-family="monospace" font-size="18" text-anchor="end">[ SCANNING ]</text>
-  <circle cx="1309" cy="118" r="4" fill="#ff5470"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
-  
-  <!-- Footer status strip -->
-  <rect x="42" y="446" width="1316" height="40" rx="10" fill="#07172a" stroke="#176d91"/>
-  <text x="68" y="472" fill="#00eaff" font-family="monospace" font-size="17">DREAM</text>
-  <text x="160" y="472" fill="#7d8eae" font-family="monospace" font-size="17">•</text>
-  <text x="188" y="472" fill="#b28aff" font-family="monospace" font-size="17">CODE</text>
-  <text x="274" y="472" fill="#7d8eae" font-family="monospace" font-size="17">•</text>
-  <text x="304" y="472" fill="#00eaff" font-family="monospace" font-size="17">BUILD</text>
-  <path d="M510 466H1308" stroke="url(#cyan)" stroke-width="2" stroke-dasharray="8 9"><animate attributeName="stroke-dashoffset" from="0" to="-68" dur="3s" repeatCount="indefinite"/></path>
-  <text x="1330" y="472" fill="#9aabca" font-family="monospace" font-size="13" text-anchor="end">ALWAYS LEARNING</text>
+<rect width="1400" height="680" rx="25" fill="url(#bg)"/>
+<rect x="15" y="15" width="1370" height="650" rx="22" fill="none" stroke="url(#edge)" stroke-width="2.5"/>
+<rect x="15" y="15" width="1370" height="650" rx="22" fill="url(#scan)"/>
+<!-- terminal header -->
+<circle cx="43" cy="43" r="6" fill="#ff5f57"/><circle cx="64" cy="43" r="6" fill="#febc2e"/><circle cx="85" cy="43" r="6" fill="#28c840"/>
+<text x="700" y="49" text-anchor="middle" class="mono muted" font-size="16">LakshayBitWizard  ~  ./profile.sh --live</text>
+<circle cx="1290" cy="43" r="5" fill="#ff526b"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="1305" y="48" class="mono" fill="#ff647b" font-size="13">SCANNING</text>
+<path d="M28 67H1372" stroke="#164e70"/>
+<!-- left visual panel -->
+<rect x="35" y="82" width="575" height="505" rx="18" fill="#061326" fill-opacity=".8" stroke="#087e9e"/>
+<text x="58" y="112" class="mono cyan" font-size="15" letter-spacing="2">VISUAL.MAP</text>
+<ellipse cx="335" cy="350" rx="250" ry="230" fill="url(#brainGlow)"/>
+<g opacity=".95"><text x="335" y="206" text-anchor="middle" class="brain" font-size="13">                 .::^^^^^^^^^^^::.                 </text>
+  <text x="335" y="223" text-anchor="middle" class="brain" font-size="13">             .:^!77777777777777777!^:.             </text>
+  <text x="335" y="240" text-anchor="middle" class="brain" font-size="13">          .^!7777777777777777777777777!^.          </text>
+  <text x="335" y="257" text-anchor="middle" class="brain" font-size="13">        :!7777777777777777777777777777777!:        </text>
+  <text x="335" y="274" text-anchor="middle" class="brain" font-size="13">      :!777777777777777777777777777777777777!:      </text>
+  <text x="335" y="291" text-anchor="middle" class="brain" font-size="13">    :!77777777777777777777777777777777777777777!:    </text>
+  <text x="335" y="308" text-anchor="middle" class="brain" font-size="13">   !777777777777777777777777777777777777777777777!   </text>
+  <text x="335" y="325" text-anchor="middle" class="brain" font-size="13">  !77777777777777777777777777777777777777777777777!  </text>
+  <text x="335" y="342" text-anchor="middle" class="brain" font-size="13"> !77777777777777777777777777777777777777777777777777! </text>
+  <text x="335" y="359" text-anchor="middle" class="brain" font-size="13"> !77777777777777777777777777777777777777777777777777! </text>
+  <text x="335" y="376" text-anchor="middle" class="brain" font-size="13"> !77777777777777777777777777777777777777777777777777! </text>
+  <text x="335" y="393" text-anchor="middle" class="brain" font-size="13">  !77777777777777777777777777777777777777777777777!  </text>
+  <text x="335" y="410" text-anchor="middle" class="brain" font-size="13">   !777777777777777777777777777777777777777777777!   </text>
+  <text x="335" y="427" text-anchor="middle" class="brain" font-size="13">    :!77777777777777777777777777777777777777777!:    </text>
+  <text x="335" y="444" text-anchor="middle" class="brain" font-size="13">      :!777777777777777777777777777777777777!:      </text>
+  <text x="335" y="461" text-anchor="middle" class="brain" font-size="13">        :!7777777777777777777777777777777!:        </text>
+  <text x="335" y="478" text-anchor="middle" class="brain" font-size="13">          .^!7777777777777777777777777!^.          </text>
+  <text x="335" y="495" text-anchor="middle" class="brain" font-size="13">             .:^!777777777777777777!^:.             </text>
+  <text x="335" y="512" text-anchor="middle" class="brain" font-size="13">                 .::^^^^^^^^^^^::.                 </text></g>
+<path d="M95 360Q335 125 575 360" fill="none" stroke="#00dfff" stroke-opacity=".42"/>
+<path d="M110 370Q335 570 560 370" fill="none" stroke="#9c5cff" stroke-opacity=".45"/>
+<g fill="#00eaff" filter="url(#glow)">
+ <circle cx="335" cy="155" r="3"><animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/></circle>
+ <circle cx="190" cy="300" r="3"><animate attributeName="r" values="2;5;2" dur="2.3s" repeatCount="indefinite"/></circle>
+ <circle cx="485" cy="300" r="3"><animate attributeName="r" values="2;5;2" dur="1.8s" repeatCount="indefinite"/></circle>
+ <circle cx="335" cy="520" r="3"><animate attributeName="r" values="2;5;2" dur="2.1s" repeatCount="indefinite"/></circle>
 </g>
+<path d="M43 340H602" stroke="#00eaff" stroke-opacity=".7" stroke-width="2" opacity=".5"><animate attributeName="transform" values="translate(0 -205);translate(0 205);translate(0 -205)" dur="6s" repeatCount="indefinite"/></path>
+<text x="60" y="557" class="mono muted" font-size="14">NEURAL NETWORK // SIGNAL ACTIVE</text>
+<!-- right system panel -->
+<rect x="630" y="82" width="735" height="505" rx="18" fill="#061326" fill-opacity=".88" stroke="#087e9e"/>
+<text x="658" y="116" class="label">&gt; SYSTEM.INFO</text>
+<path d="M658 132H1338" stroke="#1b4969"/>
+<text x="658" y="169" class="label">SUBJECT</text><text x="835" y="169" class="value">Lakshay Khanna</text>
+<text x="658" y="205" class="label">ROLE</text><text x="835" y="205" class="value">B.Tech CSE  •  AI/ML  •  Full-Stack</text>
+<text x="658" y="241" class="label">ORIGIN</text><text x="835" y="241" class="value">Noida, Uttar Pradesh, India</text>
+<text x="658" y="277" class="label">EDUCATION</text><text x="835" y="277" class="value">JIIT  •  Batch 2027</text>
+<text x="658" y="313" class="label">STATUS</text><text x="835" y="313" class="value">Building  •  Learning  •  Shipping</text>
+<path d="M658 334H1338" stroke="#1b4969"/>
+<text x="658" y="369" class="label">CORE LANG</text><text x="835" y="369" class="value">Python, C++, SQL, JavaScript, TypeScript</text>
+<text x="658" y="405" class="label">AI / AGENTS</text><text x="835" y="405" class="value">PyTorch, LangGraph, RAG, Scikit-learn</text>
+<text x="658" y="441" class="label">FULL-STACK</text><text x="835" y="441" class="value">FastAPI, React, Next.js, Django</text>
+<text x="658" y="477" class="label">INFRA</text><text x="835" y="477" class="value">Docker, Git, PostgreSQL, Supabase</text>
+<path d="M658 497H1338" stroke="#1b4969"/>
+<text x="658" y="530" class="label" fill="#00e6a0">CONTACT</text>
+<text x="835" y="530" class="value">linkedin.com/in/lakshay-khanna-28b24129b</text>
+<text x="658" y="563" class="label">GITHUB</text><text x="835" y="563" class="value">github.com/LakshayBitWizard</text>
+<!-- footer status -->
+<path d="M28 608H1372" stroke="#164e70"/>
+<text x="48" y="638" class="mono green" font-size="16">▮ SYSTEM READY</text>
+<text x="700" y="638" text-anchor="middle" class="mono muted" font-size="15">AI • MACHINE LEARNING • AGENTIC SYSTEMS • SOFTWARE ENGINEERING</text>
+<text x="1345" y="638" text-anchor="end" class="mono cyan" font-size="14">v2.0</text>
 </svg>

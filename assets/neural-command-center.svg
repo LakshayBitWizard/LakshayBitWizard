@@ -1,83 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680" role="img" aria-labelledby="title desc">
-<title id="title">Lakshay Khanna — AI Neural Command Center</title>
-<desc id="desc">Animated futuristic terminal with a cyan ASCII neural brain visualization and Lakshay Khanna's developer system profile.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+<title id="title">LakshayBitWizard — Neon AI Dashboard</title>
+<desc id="desc">A neon cyberpunk developer dashboard featuring a glowing holographic neural brain, profile information, technology stack, learning focus, GitHub links and animated neon waves.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050914"/><stop offset=".55" stop-color="#081426"/><stop offset="1" stop-color="#100b25"/></linearGradient>
- <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9a48ff"/><stop offset=".48" stop-color="#00eaff"/><stop offset="1" stop-color="#00d49a"/></linearGradient>
- <radialGradient id="brainGlow"><stop stop-color="#00cfff" stop-opacity=".22"/><stop offset="1" stop-color="#00cfff" stop-opacity="0"/></radialGradient>
- <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <pattern id="scan" width="4" height="5" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#7cbfff" stroke-opacity=".055"/></pattern>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020711"/><stop offset=".55" stop-color="#030d1d"/><stop offset="1" stop-color="#100624"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00eaff"/><stop offset=".55" stop-color="#168cff"/><stop offset="1" stop-color="#8b4dff"/></linearGradient>
+ <linearGradient id="brain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f6ff"/><stop offset=".5" stop-color="#188cff"/><stop offset="1" stop-color="#a24cff"/></linearGradient>
+ <radialGradient id="brainLight"><stop stop-color="#00eaff" stop-opacity=".34"/><stop offset=".65" stop-color="#176bff" stop-opacity=".13"/><stop offset="1" stop-color="#030b19" stop-opacity="0"/></radialGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#06172b" stop-opacity=".94"/><stop offset="1" stop-color="#020916" stop-opacity=".98"/></linearGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="13"/></filter>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#0c3d60" stroke-opacity=".3" stroke-width="1"/></pattern>
+ <pattern id="scan" width="3" height="6" patternUnits="userSpaceOnUse"><path d="M0 0H3" stroke="#b9eaff" stroke-opacity=".055"/></pattern>
+ <clipPath id="brainClip"><path d="M290 380 C270 320 302 254 361 221 C398 170 479 155 535 181 C592 143 680 170 710 225 C771 249 797 321 771 374 C792 431 750 487 693 499 C660 553 585 561 534 526 C478 556 402 532 385 483 C323 475 278 433 290 380Z"/></clipPath>
  <style>
-  .mono{font-family:'Courier New',monospace}.cyan{fill:#00eaff}.muted{fill:#92a9c5}.white{fill:#e5edf8}.green{fill:#00e6a0}
-  .brain{font-family:'Courier New',monospace;fill:#24cfff;letter-spacing:1.3px;filter:url(#glow)}
-  .label{font-family:'Courier New',monospace;fill:#00eaff;font-size:16px;font-weight:bold}
-  .value{font-family:'Courier New',monospace;fill:#e5edf8;font-size:17px}
-  .dots{fill:#54718f;opacity:.7}
+ .m{font-family:'Courier New',monospace}.cyan{fill:#00eaff}.white{fill:#eaf4ff}.muted{fill:#9db3d2}.purple{fill:#bd8cff}.green{fill:#00efad}
+ .head{font-family:'Courier New',monospace;fill:#00eaff;font-size:22px;font-weight:bold}
+ .body{font-family:'Courier New',monospace;fill:#e4efff;font-size:20px}
+ .small{font-family:'Courier New',monospace;fill:#b6c9e4;font-size:16px}
+ .tag{font-family:'Courier New',monospace;fill:#d7eaff;font-size:17px}
+ .outline{fill:url(#panel);stroke:#00cfff;stroke-opacity:.82;stroke-width:1.6}
  </style>
 </defs>
-<rect width="1400" height="680" rx="25" fill="url(#bg)"/>
-<rect x="15" y="15" width="1370" height="650" rx="22" fill="none" stroke="url(#edge)" stroke-width="2.5"/>
-<rect x="15" y="15" width="1370" height="650" rx="22" fill="url(#scan)"/>
-<!-- terminal header -->
-<circle cx="43" cy="43" r="6" fill="#ff5f57"/><circle cx="64" cy="43" r="6" fill="#febc2e"/><circle cx="85" cy="43" r="6" fill="#28c840"/>
-<text x="700" y="49" text-anchor="middle" class="mono muted" font-size="16">LakshayBitWizard  ~  ./profile.sh --live</text>
-<circle cx="1290" cy="43" r="5" fill="#ff526b"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
-<text x="1305" y="48" class="mono" fill="#ff647b" font-size="13">SCANNING</text>
-<path d="M28 67H1372" stroke="#164e70"/>
-<!-- left visual panel -->
-<rect x="35" y="82" width="575" height="505" rx="18" fill="#061326" fill-opacity=".8" stroke="#087e9e"/>
-<text x="58" y="112" class="mono cyan" font-size="15" letter-spacing="2">VISUAL.MAP</text>
-<ellipse cx="335" cy="350" rx="250" ry="230" fill="url(#brainGlow)"/>
-<g opacity=".95"><text x="335" y="206" text-anchor="middle" class="brain" font-size="13">                 .::^^^^^^^^^^^::.                 </text>
-  <text x="335" y="223" text-anchor="middle" class="brain" font-size="13">             .:^!77777777777777777!^:.             </text>
-  <text x="335" y="240" text-anchor="middle" class="brain" font-size="13">          .^!7777777777777777777777777!^.          </text>
-  <text x="335" y="257" text-anchor="middle" class="brain" font-size="13">        :!7777777777777777777777777777777!:        </text>
-  <text x="335" y="274" text-anchor="middle" class="brain" font-size="13">      :!777777777777777777777777777777777777!:      </text>
-  <text x="335" y="291" text-anchor="middle" class="brain" font-size="13">    :!77777777777777777777777777777777777777777!:    </text>
-  <text x="335" y="308" text-anchor="middle" class="brain" font-size="13">   !777777777777777777777777777777777777777777777!   </text>
-  <text x="335" y="325" text-anchor="middle" class="brain" font-size="13">  !77777777777777777777777777777777777777777777777!  </text>
-  <text x="335" y="342" text-anchor="middle" class="brain" font-size="13"> !77777777777777777777777777777777777777777777777777! </text>
-  <text x="335" y="359" text-anchor="middle" class="brain" font-size="13"> !77777777777777777777777777777777777777777777777777! </text>
-  <text x="335" y="376" text-anchor="middle" class="brain" font-size="13"> !77777777777777777777777777777777777777777777777777! </text>
-  <text x="335" y="393" text-anchor="middle" class="brain" font-size="13">  !77777777777777777777777777777777777777777777777!  </text>
-  <text x="335" y="410" text-anchor="middle" class="brain" font-size="13">   !777777777777777777777777777777777777777777777!   </text>
-  <text x="335" y="427" text-anchor="middle" class="brain" font-size="13">    :!77777777777777777777777777777777777777777!:    </text>
-  <text x="335" y="444" text-anchor="middle" class="brain" font-size="13">      :!777777777777777777777777777777777777!:      </text>
-  <text x="335" y="461" text-anchor="middle" class="brain" font-size="13">        :!7777777777777777777777777777777!:        </text>
-  <text x="335" y="478" text-anchor="middle" class="brain" font-size="13">          .^!7777777777777777777777777!^.          </text>
-  <text x="335" y="495" text-anchor="middle" class="brain" font-size="13">             .:^!777777777777777777!^:.             </text>
-  <text x="335" y="512" text-anchor="middle" class="brain" font-size="13">                 .::^^^^^^^^^^^::.                 </text></g>
-<path d="M95 360Q335 125 575 360" fill="none" stroke="#00dfff" stroke-opacity=".42"/>
-<path d="M110 370Q335 570 560 370" fill="none" stroke="#9c5cff" stroke-opacity=".45"/>
-<g fill="#00eaff" filter="url(#glow)">
- <circle cx="335" cy="155" r="3"><animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/></circle>
- <circle cx="190" cy="300" r="3"><animate attributeName="r" values="2;5;2" dur="2.3s" repeatCount="indefinite"/></circle>
- <circle cx="485" cy="300" r="3"><animate attributeName="r" values="2;5;2" dur="1.8s" repeatCount="indefinite"/></circle>
- <circle cx="335" cy="520" r="3"><animate attributeName="r" values="2;5;2" dur="2.1s" repeatCount="indefinite"/></circle>
+<rect width="1672" height="941" rx="8" fill="url(#bg)"/>
+<rect width="1672" height="941" fill="url(#grid)"/>
+<rect width="1672" height="941" fill="url(#scan)"/>
+<!-- faint circuitry -->
+<g fill="none" stroke="#07517c" stroke-opacity=".35" stroke-width="2"><path d="M0 120H20L60 80H190M260 0L290 30V80M920 0L950 30H1090M0 640H30L70 600H120M1530 0L1570 40H1672M1540 650H1600L1640 610H1672"/><circle cx="190" cy="80" r="4" fill="#00cfff"/><circle cx="1090" cy="30" r="4" fill="#00cfff"/><circle cx="120" cy="600" r="4" fill="#00cfff"/></g>
+<!-- top terminal bar -->
+<path d="M60 31H576L606 62H950" fill="none" stroke="url(#cyan)" stroke-width="2"/>
+<path d="M20 84L60 31M20 84V710" fill="none" stroke="#00cfff" stroke-width="2" opacity=".8"/>
+<text x="42" y="65" class="m cyan" font-size="25" font-weight="bold">&gt; LakshayBitWizard@github</text>
+<text x="385" y="65" class="m purple" font-size="25">~/profile</text>
+<circle cx="1102" cy="44" r="7" fill="#00efad" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+<text x="1120" y="51" class="m green" font-size="20">ONLINE</text>
+<path d="M1205 34V57" stroke="#00eaff" stroke-width="1.5"/>
+<text x="1230" y="51" class="m muted" font-size="19">BUILDING</text><text x="1340" y="51" class="m purple" font-size="18">◆</text><text x="1370" y="51" class="m muted" font-size="19">LEARNING</text><text x="1492" y="51" class="m purple" font-size="18">◆</text><text x="1520" y="51" class="m muted" font-size="19">INNOVATING</text>
+<!-- left hologram frame -->
+<path d="M22 110L48 84H922L950 112V690L924 718H47L22 692Z" fill="#030b18" fill-opacity=".65" stroke="#00bfff" stroke-width="2"/>
+<path d="M22 110L48 84H922L950 112" fill="none" stroke="#00eaff" stroke-width="3" filter="url(#glow)"/>
+<path d="M22 692L47 718H924L950 690" fill="none" stroke="#00eaff" stroke-width="3" filter="url(#glow)"/>
+<path d="M49 100H399L414 117H48Z" fill="#0a1024" stroke="#8e3eff" stroke-width="1.2"/>
+<text x="63" y="128" class="m cyan" font-size="21">&gt; INITIALIZING AI PROFILE...</text>
+<!-- holographic brain glow -->
+<ellipse cx="535" cy="377" rx="330" ry="270" fill="url(#brainLight)"/>
+<ellipse cx="535" cy="652" rx="300" ry="32" fill="#00cfff" opacity=".22" filter="url(#softGlow)"/>
+<!-- orbiting neural rings -->
+<g fill="none" stroke-width="2.2" filter="url(#glow)">
+ <ellipse cx="535" cy="376" rx="300" ry="100" transform="rotate(-18 535 376)" stroke="#00cfff" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="-18 535 376" to="342 535 376" dur="35s" repeatCount="indefinite"/></ellipse>
+ <ellipse cx="535" cy="376" rx="260" ry="142" transform="rotate(48 535 376)" stroke="#6a5cff" opacity=".75"><animateTransform attributeName="transform" type="rotate" from="48 535 376" to="-312 535 376" dur="42s" repeatCount="indefinite"/></ellipse>
+ <ellipse cx="535" cy="376" rx="340" ry="62" transform="rotate(4 535 376)" stroke="#00eaff" opacity=".55"/>
 </g>
-<path d="M43 340H602" stroke="#00eaff" stroke-opacity=".7" stroke-width="2" opacity=".5"><animate attributeName="transform" values="translate(0 -205);translate(0 205);translate(0 -205)" dur="6s" repeatCount="indefinite"/></path>
-<text x="60" y="557" class="mono muted" font-size="14">NEURAL NETWORK // SIGNAL ACTIVE</text>
+<!-- brain silhouette and neural mesh -->
+<path d="M290 380 C270 320 302 254 361 221 C398 170 479 155 535 181 C592 143 680 170 710 225 C771 249 797 321 771 374 C792 431 750 487 693 499 C660 553 585 561 534 526 C478 556 402 532 385 483 C323 475 278 433 290 380Z" fill="#05204b" fill-opacity=".62" stroke="url(#brain)" stroke-width="5" filter="url(#glow)"/>
+<g clip-path="url(#brainClip)" fill="none" stroke="#12cfff" stroke-opacity=".78" stroke-width="1.6">
+ <path d="M260 260L370 225L430 290L535 181L590 265L710 225L790 330L690 390L771 470L650 520L535 526L430 490L290 430L370 225L385 483L535 181L535 526L710 225L690 499L430 290L650 520L590 265L290 380L790 330L370 225L690 499"/>
+ <path d="M300 330L430 290L590 265L710 225M290 430L430 490L535 526L650 520M370 225L590 265L690 390L650 520M430 290L535 390L690 390L790 330M300 330L535 390L771 470"/>
+ <path d="M330 180L350 540M400 150L410 550M480 140L480 570M560 145L560 570M640 155L650 550M720 190L730 520" stroke="#4c7bff" stroke-opacity=".45"/>
+</g>
+<g fill="#00eaff" filter="url(#glow)">
+ <circle cx="370" cy="225" r="7"/><circle cx="430" cy="290" r="7"/><circle cx="535" cy="181" r="8"/><circle cx="590" cy="265" r="7"/><circle cx="710" cy="225" r="7"/><circle cx="790" cy="330" r="6"/><circle cx="690" cy="390" r="8"/><circle cx="771" cy="470" r="6"/><circle cx="650" cy="520" r="7"/><circle cx="535" cy="526" r="8"/><circle cx="430" cy="490" r="7"/><circle cx="290" cy="430" r="6"/><circle cx="290" cy="380" r="6"/><circle cx="535" cy="390" r="8"><animate attributeName="r" values="6;12;6" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+<g fill="#ffffff" filter="url(#glow)"><circle cx="460" cy="240" r="3"/><circle cx="620" cy="215" r="3"/><circle cx="740" cy="380" r="3"/><circle cx="470" cy="450" r="3"/><circle cx="350" cy="380" r="3"/><circle cx="610" cy="470" r="3"/></g>
+<!-- hologram pedestal -->
+<path d="M400 525L670 525L725 642H350Z" fill="#00aaff" opacity=".08" stroke="#00cfff" stroke-opacity=".35"/>
+<g fill="none" stroke-width="3" filter="url(#glow)"><ellipse cx="535" cy="650" rx="220" ry="31" stroke="#00eaff"/><ellipse cx="535" cy="650" rx="175" ry="20" stroke="#6f4fff"/><ellipse cx="535" cy="650" rx="130" ry="12" stroke="#00eaff"/></g>
+<path d="M535 520V635" stroke="#00eaff" stroke-opacity=".4" stroke-width="3"><animate attributeName="opacity" values=".15;.8;.15" dur="2s" repeatCount="indefinite"/></path>
+<!-- left panel callout tags -->
+<g>
+ <rect x="80" y="196" width="178" height="70" rx="15" fill="#06182b" stroke="#268cff" stroke-width="1.5"/><text x="99" y="240" class="cyan" font-size="31">▦</text><text x="150" y="225" class="tag">Machine</text><text x="150" y="248" class="tag">Learning</text>
+ <rect x="737" y="196" width="178" height="70" rx="15" fill="#06182b" stroke="#268cff" stroke-width="1.5"/><text x="754" y="239" class="cyan" font-size="30">&lt;/&gt;</text><text x="812" y="225" class="tag">Full-Stack</text><text x="812" y="248" class="tag">Development</text>
+ <rect x="44" y="343" width="176" height="70" rx="15" fill="#06182b" stroke="#268cff" stroke-width="1.5"/><text x="62" y="388" class="cyan" font-size="31">♙</text><text x="120" y="385" class="tag">DevSecOps</text>
+ <rect x="741" y="369" width="174" height="70" rx="15" fill="#06182b" stroke="#268cff" stroke-width="1.5"/><text x="758" y="414" class="cyan" font-size="30">▤</text><text x="812" y="411" class="tag">Data Science</text>
+ <rect x="79" y="497" width="176" height="70" rx="15" fill="#06182b" stroke="#268cff" stroke-width="1.5"/><text x="98" y="543" class="cyan" font-size="30">♧</text><text x="150" y="539" class="tag">Agentic AI</text>
+ <rect x="720" y="486" width="195" height="70" rx="15" fill="#06182b" stroke="#268cff" stroke-width="1.5"/><text x="738" y="531" class="cyan" font-size="30">⌘</text><text x="790" y="515" class="tag">Deep</text><text x="790" y="539" class="tag">Learning</text>
+</g>
 <!-- right system panel -->
-<rect x="630" y="82" width="735" height="505" rx="18" fill="#061326" fill-opacity=".88" stroke="#087e9e"/>
-<text x="658" y="116" class="label">&gt; SYSTEM.INFO</text>
-<path d="M658 132H1338" stroke="#1b4969"/>
-<text x="658" y="169" class="label">SUBJECT</text><text x="835" y="169" class="value">Lakshay Khanna</text>
-<text x="658" y="205" class="label">ROLE</text><text x="835" y="205" class="value">B.Tech CSE  •  AI/ML  •  Full-Stack</text>
-<text x="658" y="241" class="label">ORIGIN</text><text x="835" y="241" class="value">Noida, Uttar Pradesh, India</text>
-<text x="658" y="277" class="label">EDUCATION</text><text x="835" y="277" class="value">JIIT  •  Batch 2027</text>
-<text x="658" y="313" class="label">STATUS</text><text x="835" y="313" class="value">Building  •  Learning  •  Shipping</text>
-<path d="M658 334H1338" stroke="#1b4969"/>
-<text x="658" y="369" class="label">CORE LANG</text><text x="835" y="369" class="value">Python, C++, SQL, JavaScript, TypeScript</text>
-<text x="658" y="405" class="label">AI / AGENTS</text><text x="835" y="405" class="value">PyTorch, LangGraph, RAG, Scikit-learn</text>
-<text x="658" y="441" class="label">FULL-STACK</text><text x="835" y="441" class="value">FastAPI, React, Next.js, Django</text>
-<text x="658" y="477" class="label">INFRA</text><text x="835" y="477" class="value">Docker, Git, PostgreSQL, Supabase</text>
-<path d="M658 497H1338" stroke="#1b4969"/>
-<text x="658" y="530" class="label" fill="#00e6a0">CONTACT</text>
-<text x="835" y="530" class="value">linkedin.com/in/lakshay-khanna-28b24129b</text>
-<text x="658" y="563" class="label">GITHUB</text><text x="835" y="563" class="value">github.com/LakshayBitWizard</text>
-<!-- footer status -->
-<path d="M28 608H1372" stroke="#164e70"/>
-<text x="48" y="638" class="mono green" font-size="16">▮ SYSTEM READY</text>
-<text x="700" y="638" text-anchor="middle" class="mono muted" font-size="15">AI • MACHINE LEARNING • AGENTIC SYSTEMS • SOFTWARE ENGINEERING</text>
-<text x="1345" y="638" text-anchor="end" class="mono cyan" font-size="14">v2.0</text>
+<path d="M980 92H1606L1642 126V690L1610 718H980L962 700V111Z" fill="url(#panel)" stroke="#00cfff" stroke-width="2"/>
+<path d="M1560 92H1606L1642 126V168" fill="none" stroke="#00eaff" stroke-width="5" filter="url(#glow)"/>
+<text x="1012" y="128" class="head">&gt; SYSTEM.INFO</text><path d="M1010 143H1608" stroke="#16415f"/>
+<g class="body">
+ <text x="1008" y="181" class="cyan">Name</text><text x="1148" y="181" class="purple">:</text><text x="1175" y="181">Lakshay Khanna</text>
+ <text x="1008" y="212" class="cyan">Role</text><text x="1148" y="212" class="purple">:</text><text x="1175" y="212">AI/ML Engineer &amp; DevSecOps Enthusiast</text>
+ <text x="1008" y="243" class="cyan">Education</text><text x="1148" y="243" class="purple">:</text><text x="1175" y="243">B.Tech CSE @ JIIT Noida (2023–2027)</text>
+ <text x="1008" y="274" class="cyan">Focus Areas</text><text x="1148" y="274" class="purple">:</text><text x="1175" y="274">Agentic AI • Deep Learning • Cybersecurity</text>
+ <text x="1008" y="305" class="cyan">Philosophy</text><text x="1148" y="305" class="purple">:</text><text x="1175" y="305">Deterministic Code. Intelligent Systems.</text>
+</g>
+<path d="M1008 326H1608" stroke="#16415f"/>
+<text x="1012" y="365" class="head">&gt; TECH STACK</text>
+<!-- technology icon tiles -->
+<g>
+ <g><rect x="1010" y="382" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1057" y="429" text-anchor="middle" font-size="38" fill="#ffd343" font-weight="bold">Py</text></g>
+ <g><rect x="1120" y="382" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1167" y="429" text-anchor="middle" font-size="34" fill="#63b5ff" font-weight="bold">C++</text></g>
+ <g><rect x="1230" y="382" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1277" y="429" text-anchor="middle" font-size="37" fill="#f7df1e" font-weight="bold">JS</text></g>
+ <g><rect x="1340" y="382" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1387" y="429" text-anchor="middle" font-size="38" fill="#61dafb" font-weight="bold">⚛</text></g>
+ <g><rect x="1450" y="382" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1497" y="429" text-anchor="middle" font-size="36" fill="#ffffff" font-weight="bold">N</text></g>
+ <g><rect x="1010" y="462" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1057" y="508" text-anchor="middle" font-size="35" fill="#ff5a42" font-weight="bold">◉</text></g>
+ <g><rect x="1120" y="462" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1167" y="508" text-anchor="middle" font-size="34" fill="#ff9b22" font-weight="bold">TF</text></g>
+ <g><rect x="1230" y="462" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1277" y="508" text-anchor="middle" font-size="33" fill="#1fa5d8" font-weight="bold">Docker</text></g>
+ <g><rect x="1340" y="462" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1387" y="508" text-anchor="middle" font-size="35" fill="#e6edf3" font-weight="bold">Linux</text></g>
+ <g><rect x="1450" y="462" width="94" height="70" rx="14" fill="#071426" stroke="#144c70"/><text x="1497" y="508" text-anchor="middle" font-size="35" fill="#ffffff" font-weight="bold">Git</text></g>
+</g>
+<path d="M1008 548H1608" stroke="#16415f"/>
+<text x="1012" y="581" class="head">&gt; CURRENTLY.EXPLORING</text>
+<g class="m" font-size="20"><text x="1015" y="614" class="purple">➤</text><text x="1050" y="614" class="white">Multi-Agent Systems &amp; RAG</text><text x="1015" y="644" class="purple">➤</text><text x="1050" y="644" class="white">System Design at Scale</text><text x="1015" y="674" class="purple">➤</text><text x="1050" y="674" class="white">Advanced DSA &amp; Competitive Programming</text><text x="1015" y="704" class="purple">➤</text><text x="1050" y="704" class="white">Quantitative Trading &amp; Investing</text></g>
+<!-- bottom dashboard strip -->
+<path d="M22 750L48 724H1608L1642 754V850L1610 880H48L22 852Z" fill="#030b18" stroke="url(#cyan)" stroke-width="2"/>
+<path d="M345 750V855M628 750V855M1310 750V855" stroke="#31536f" stroke-width="1.5"/>
+<text x="72" y="786" class="head">▥ GitHub Stats</text><text x="72" y="834" class="cyan m" font-size="34" font-weight="bold">LIVE</text><text x="72" y="858" class="small">Public activity &amp; contributions</text>
+<text x="385" y="786" class="head">☆ Repositories</text><text x="385" y="834" class="cyan m" font-size="34" font-weight="bold">Explore ↗</text><text x="385" y="858" class="small">Projects &amp; open-source work</text>
+<text x="970" y="800" text-anchor="middle" class="m" font-size="36" font-weight="bold"><tspan fill="#bd8cff">DREAM</tspan><tspan fill="#00eaff">  •  CODE  •  BUILD</tspan></text>
+<path d="M750 827H1192" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"><animate attributeName="stroke-dasharray" values="0 440;220 220;440 0" dur="4s" repeatCount="indefinite"/></path>
+<text x="1350" y="786" class="head">⚡ Let’s Connect!</text>
+<g class="m" font-size="30" font-weight="bold"><text x="1370" y="836" fill="#1686d9">in</text><text x="1452" y="836" fill="#f04b45">✉</text><text x="1535" y="836" fill="#ffffff">◉</text></g>
+<!-- footer wave -->
+<g fill="none" stroke-width="3" filter="url(#glow)">
+ <path d="M0 908 C100 855 130 952 240 902S380 870 480 909S610 950 720 900S870 864 980 910S1130 950 1240 901S1400 870 1510 910S1620 936 1672 895" stroke="#00dfff"><animate attributeName="d" values="M0 908 C100 855 130 952 240 902S380 870 480 909S610 950 720 900S870 864 980 910S1130 950 1240 901S1400 870 1510 910S1620 936 1672 895;M0 900 C100 950 130 855 240 910S380 945 480 895S610 865 720 915S870 950 980 900S1130 860 1240 915S1400 945 1510 895S1620 860 1672 910;M0 908 C100 855 130 952 240 902S380 870 480 909S610 950 720 900S870 864 980 910S1130 950 1240 901S1400 870 1510 910S1620 936 1672 895" dur="5s" repeatCount="indefinite"/></path>
+ <path d="M0 918 C100 890 150 950 260 915S420 890 520 920S700 950 800 915S970 890 1080 920S1240 950 1360 915S1550 890 1672 920" stroke="#8c43ff" opacity=".9"/>
+</g>
+<text x="836" y="922" text-anchor="middle" class="m purple" font-size="19" letter-spacing="4">&gt; ALWAYS LEARNING. ALWAYS BUILDING &lt;</text>
 </svg>

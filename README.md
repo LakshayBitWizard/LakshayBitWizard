@@ -1,4 +1,4 @@
-﻿<!-- Animated Cyber Wave Header Banner -->
+<!-- Animated Cyber Wave Header Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f0ff,100:7c3aed&height=220&section=header&text=Lakshay%20Khanna&fontColor=ffffff&fontSize=44&fontAlignY=35&desc=AI%20/%20ML%20%E2%80%A2%20DevSecOps%20%E2%80%A2%20Full-Stack%20Architect&descSize=18&descAlignY=55&animation=fadeIn" alt="Header" />
 
 <div align="center">
@@ -112,6 +112,10 @@ philosophy: "Deterministic code remediation over stochastic hallucinations."
 ---
 
 ### 🛠️ Tech Stack & Skills
+
+<div align="center">
+  <img src="assets/tech-marquee.svg" width="100%" alt="Scrolling Tech Stack Marquee" />
+</div>
 
 #### 🧠 Languages & Core Fundamentals
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)

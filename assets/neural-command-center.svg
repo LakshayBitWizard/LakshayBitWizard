@@ -1,113 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
-<title id="title">Lakshay Khanna | AI and Full-Stack Developer</title>
-<desc id="desc">A polished dark portfolio banner with an illuminated neural network orb, clear developer introduction, featured engineering projects, focus areas and contact links.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Lakshay Khanna | AI and Full-Stack Engineer</title>
+<desc id="desc">A polished dark portfolio banner with a glowing neural network sphere, clear professional profile, technology stack, featured projects and verified coding milestone.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset=".58" stop-color="#0a1425"/><stop offset="1" stop-color="#11112b"/></linearGradient>
- <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39d5ff"/><stop offset=".52" stop-color="#6b8cff"/><stop offset="1" stop-color="#b28aff"/></linearGradient>
- <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#35e5ff"/><stop offset=".5" stop-color="#3987ff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
- <radialGradient id="orbGlow"><stop stop-color="#278fff" stop-opacity=".3"/><stop offset=".7" stop-color="#275aff" stop-opacity=".09"/><stop offset="1" stop-color="#07111f" stop-opacity="0"/></radialGradient>
- <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#14243a" stop-opacity=".96"/><stop offset="1" stop-color="#0a1424" stop-opacity=".98"/></linearGradient>
- <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#426080" stroke-opacity=".12"/></pattern>
- <clipPath id="orbClip"><circle cx="300" cy="315" r="190"/></clipPath>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset=".58" stop-color="#080d1d"/><stop offset="1" stop-color="#130d26"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#23e4f6"/><stop offset=".55" stop-color="#538cff"/><stop offset="1" stop-color="#b477ff"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#20dfff" stop-opacity=".27"/><stop offset=".58" stop-color="#426aff" stop-opacity=".13"/><stop offset="1" stop-color="#07111f" stop-opacity="0"/></radialGradient>
+ <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#101e32" stop-opacity=".94"/><stop offset="1" stop-color="#0a1221" stop-opacity=".97"/></linearGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#29405e" stroke-opacity=".17"/></pattern>
  <style>
-  .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
-  .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
-  .white{fill:#f1f6ff}.muted{fill:#9aacc4}.cyan{fill:#55ddff}.lav{fill:#c4a6ff}
-  .eyebrow{font-size:12px;font-weight:700;letter-spacing:2.2px}
-  .section{font-size:12px;font-weight:700;letter-spacing:1.6px;fill:#7fe4ff}
-  .body{font-size:15px;fill:#d8e4f5}
-  .sub{font-size:13px;fill:#a9bad1}
-  .chip{font-size:12px;font-weight:600;fill:#c9dcf4}
+ .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:Consolas,'Courier New',monospace}
+ .white{fill:#edf5ff}.muted{fill:#9eafc7}.cyan{fill:#39e2f5}.violet{fill:#bd9aff}.green{fill:#53e6b1}
+ .eyebrow{font-size:13px;font-weight:700;letter-spacing:2.2px}.section{font-size:14px;font-weight:700;letter-spacing:1.7px}
+ .copy{font-size:17px}.small{font-size:14px}.chip{font-size:14px;font-weight:600}
  </style>
 </defs>
-
-<!-- Background -->
-<rect width="1200" height="620" rx="24" fill="url(#bg)"/>
-<rect width="1200" height="620" rx="24" fill="url(#grid)"/>
-<circle cx="285" cy="305" r="280" fill="#1462b8" opacity=".12" filter="url(#soft)"/>
-<circle cx="1020" cy="170" r="260" fill="#7040bd" opacity=".08" filter="url(#soft)"/>
-<rect x="1" y="1" width="1198" height="618" rx="23" fill="none" stroke="#263b58" stroke-width="1.5"/>
-
-<!-- Header -->
-<text x="42" y="48" class="mono cyan" font-size="13" font-weight="700">LK</text>
-<text x="73" y="48" class="sans white" font-size="14" font-weight="700" letter-spacing=".8">LAKSHAY KHANNA</text>
-<text x="226" y="48" class="sans muted" font-size="13">/ AI ENGINEERING PORTFOLIO</text>
-<circle cx="1004" cy="43" r="4.5" fill="#40e5ae"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
-<text x="1017" y="48" class="sans" fill="#8cebc9" font-size="12" font-weight="600" letter-spacing="1">OPEN TO OPPORTUNITIES</text>
-<path d="M40 68H1160" stroke="#2a3c55"/>
-
-<!-- Left visual stage -->
-<text x="54" y="105" class="sans cyan eyebrow">INTELLIGENCE, ENGINEERED.</text>
-<text x="54" y="132" class="sans muted" font-size="13">Building systems that connect AI research with real-world software.</text>
-<circle cx="300" cy="315" r="238" fill="url(#orbGlow)"/>
-<circle cx="300" cy="315" r="194" fill="#071a30" fill-opacity=".72" stroke="#284b72" stroke-width="1.2"/>
-<circle cx="300" cy="315" r="190" fill="none" stroke="url(#accent)" stroke-opacity=".45" stroke-width="1.6"/>
-<!-- Orbit paths -->
-<g fill="none" stroke-width="1.5" opacity=".8">
- <ellipse cx="300" cy="315" rx="230" ry="78" transform="rotate(-24 300 315)" stroke="#36dfff"/>
- <ellipse cx="300" cy="315" rx="210" ry="110" transform="rotate(48 300 315)" stroke="#8e72ff"/>
- <ellipse cx="300" cy="315" rx="175" ry="60" transform="rotate(90 300 315)" stroke="#3e9dff" stroke-opacity=".55"/>
+<rect width="1200" height="720" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="720" rx="22" fill="url(#grid)"/>
+<circle cx="340" cy="335" r="310" fill="#00cfff" opacity=".045" filter="url(#blur)"/>
+<circle cx="1010" cy="510" r="260" fill="#8e55ff" opacity=".045" filter="url(#blur)"/>
+<rect x="1" y="1" width="1198" height="718" rx="21" fill="none" stroke="#243c5b" stroke-width="1.5"/>
+<!-- top header -->
+<text x="48" y="58" class="sans white" font-size="25" font-weight="700">Lakshay Khanna</text>
+<text x="49" y="83" class="mono cyan" font-size="13" letter-spacing="1.4">AI / ML ENGINEERING  ·  AGENTIC SYSTEMS  ·  FULL-STACK</text>
+<g transform="translate(920 42)"><circle cx="0" cy="0" r="5" fill="#53e6b1"/><text x="15" y="5" class="mono green" font-size="13">OPEN TO OPPORTUNITIES</text></g>
+<path d="M48 105H1152" stroke="#29405b"/>
+<path d="M48 105H330" stroke="url(#accent)" stroke-width="2.5"/>
+<!-- left visual stage -->
+<rect x="40" y="130" width="610" height="470" rx="20" fill="url(#card)" stroke="#284968"/>
+<text x="68" y="166" class="mono cyan eyebrow">01 / THE ENGINEERING MINDSET</text>
+<text x="68" y="194" class="sans white" font-size="24" font-weight="650">Building intelligent systems.</text>
+<text x="68" y="218" class="sans muted" font-size="15">From neural networks to autonomous software agents.</text>
+<ellipse cx="355" cy="366" rx="285" ry="240" fill="url(#orb)"/>
+<!-- orbital rings -->
+<g fill="none" filter="url(#glow)">
+ <ellipse cx="355" cy="360" rx="250" ry="83" transform="rotate(-20 355 360)" stroke="#21d9f4" stroke-opacity=".55" stroke-width="1.5"/>
+ <ellipse cx="355" cy="360" rx="220" ry="112" transform="rotate(54 355 360)" stroke="#9271ff" stroke-opacity=".45" stroke-width="1.4"/>
+ <ellipse cx="355" cy="360" rx="205" ry="62" transform="rotate(90 355 360)" stroke="#22c9ee" stroke-opacity=".22" stroke-width="1.2"/>
 </g>
-<g fill="none" stroke="#36cfff" stroke-opacity=".65" stroke-width="1.1" clip-path="url(#orbClip)">
- <path d="M130 250L205 185L265 220L330 160L398 208L470 250L445 325L390 385L340 455L265 420L190 390L145 320L205 185L390 385L265 220L445 325L190 390L330 160L340 455L470 250L205 185"/>
- <path d="M130 250L265 420L445 325L398 208L190 390L330 160L390 385L145 320L265 220L470 250"/>
- <path d="M160 300L230 260L300 315L365 260L435 300M160 350L230 375L300 315L365 375L435 350" stroke="#a18aff" stroke-opacity=".5"/>
-</g>
-<!-- Neural nodes -->
-<g fill="#6deaff" filter="url(#glow)">
- <circle cx="205" cy="185" r="5"/><circle cx="265" cy="220" r="5"/><circle cx="330" cy="160" r="6"/><circle cx="398" cy="208" r="5"/><circle cx="470" cy="250" r="4"/><circle cx="445" cy="325" r="5"/><circle cx="390" cy="385" r="5"/><circle cx="340" cy="455" r="4"/><circle cx="265" cy="420" r="5"/><circle cx="190" cy="390" r="4"/><circle cx="145" cy="320" r="4"/><circle cx="300" cy="315" r="8"><animate attributeName="r" values="6;11;6" dur="2.6s" repeatCount="indefinite"/></circle>
-</g>
-<g fill="#fff" filter="url(#glow)"><circle cx="235" cy="285" r="2.5"/><circle cx="360" cy="235" r="2.5"/><circle cx="370" cy="350" r="2.5"/><circle cx="235" cy="355" r="2.5"/><circle cx="315" cy="405" r="2.5"/></g>
-<!-- orbiting particle -->
-<circle cx="300" cy="315" r="4" fill="#fff" filter="url(#glow)"><animateMotion dur="9s" repeatCount="indefinite" path="M0,-215 A215,82 -24 1,1 0,215 A215,82 -24 1,1 0,-215"/></circle>
-<!-- Orbit labels -->
+<!-- neural sphere -->
+<circle cx="355" cy="350" r="208" fill="#0a2350" fill-opacity=".38" stroke="url(#accent)" stroke-opacity=".6" stroke-width="1.4"/>
+<ellipse cx="355" cy="350" rx="204" ry="76" fill="none" stroke="#42dfff" stroke-opacity=".35"/>
+<ellipse cx="355" cy="350" rx="204" ry="145" fill="none" stroke="#42dfff" stroke-opacity=".22" transform="rotate(60 355 350)"/>
+<ellipse cx="355" cy="350" rx="204" ry="145" fill="none" stroke="#9873ff" stroke-opacity=".22" transform="rotate(-60 355 350)"/>
+<g><line x1="355.0" y1="555.0" x2="362.0" y2="538.9" stroke="#32d9ff" stroke-opacity="0.29" stroke-width="1.2"/><line x1="355.0" y1="555.0" x2="313.1" y2="547.0" stroke="#32d9ff" stroke-opacity="0.29" stroke-width="1.2"/><line x1="313.1" y1="547.0" x2="320.7" y2="506.8" stroke="#32d9ff" stroke-opacity="0.32" stroke-width="1.2"/><line x1="413.7" y1="530.9" x2="457.9" y2="514.8" stroke="#32d9ff" stroke-opacity="0.35" stroke-width="1.2"/><line x1="246.5" y1="522.8" x2="290.0" y2="498.7" stroke="#32d9ff" stroke-opacity="0.28" stroke-width="1.2"/><line x1="246.5" y1="522.8" x2="210.5" y2="482.6" stroke="#32d9ff" stroke-opacity="0.28" stroke-width="1.2"/><line x1="457.9" y1="514.8" x2="495.1" y2="490.7" stroke="#32d9ff" stroke-opacity="0.24" stroke-width="1.2"/><line x1="320.7" y1="506.8" x2="290.0" y2="498.7" stroke="#32d9ff" stroke-opacity="0.39" stroke-width="1.2"/><line x1="495.1" y1="490.7" x2="529.5" y2="450.5" stroke="#32d9ff" stroke-opacity="0.33" stroke-width="1.2"/><line x1="210.5" y1="482.6" x2="204.5" y2="458.5" stroke="#32d9ff" stroke-opacity="0.34" stroke-width="1.2"/><line x1="424.0" y1="474.6" x2="405.5" y2="466.6" stroke="#32d9ff" stroke-opacity="0.17" stroke-width="1.2"/><line x1="204.5" y1="458.5" x2="249.8" y2="442.5" stroke="#32d9ff" stroke-opacity="0.22" stroke-width="1.2"/><line x1="529.5" y1="450.5" x2="500.5" y2="426.4" stroke="#32d9ff" stroke-opacity="0.26" stroke-width="1.2"/><line x1="249.8" y1="442.5" x2="226.7" y2="394.2" stroke="#32d9ff" stroke-opacity="0.41" stroke-width="1.2"/><line x1="331.0" y1="434.4" x2="345.8" y2="402.3" stroke="#32d9ff" stroke-opacity="0.15" stroke-width="1.2"/><line x1="500.5" y1="426.4" x2="493.9" y2="410.3" stroke="#32d9ff" stroke-opacity="0.39" stroke-width="1.2"/><line x1="161.9" y1="418.3" x2="188.3" y2="378.1" stroke="#32d9ff" stroke-opacity="0.30" stroke-width="1.2"/><line x1="345.8" y1="402.3" x2="399.8" y2="370.1" stroke="#32d9ff" stroke-opacity="0.44" stroke-width="1.2"/><line x1="226.7" y1="394.2" x2="188.3" y2="378.1" stroke="#32d9ff" stroke-opacity="0.17" stroke-width="1.2"/><line x1="555.0" y1="386.2" x2="541.1" y2="346.0" stroke="#32d9ff" stroke-opacity="0.31" stroke-width="1.2"/><line x1="188.3" y1="378.1" x2="159.7" y2="354.0" stroke="#32d9ff" stroke-opacity="0.38" stroke-width="1.2"/><line x1="399.8" y1="370.1" x2="456.7" y2="362.1" stroke="#32d9ff" stroke-opacity="0.13" stroke-width="1.2"/><line x1="456.7" y1="362.1" x2="463.3" y2="305.8" stroke="#32d9ff" stroke-opacity="0.43" stroke-width="1.2"/><line x1="159.7" y1="354.0" x2="159.9" y2="313.8" stroke="#32d9ff" stroke-opacity="0.24" stroke-width="1.2"/><line x1="541.1" y1="346.0" x2="534.7" y2="321.9" stroke="#32d9ff" stroke-opacity="0.22" stroke-width="1.2"/><line x1="276.0" y1="337.9" x2="286.0" y2="329.9" stroke="#32d9ff" stroke-opacity="0.44" stroke-width="1.2"/><line x1="286.0" y1="329.9" x2="225.8" y2="273.6" stroke="#32d9ff" stroke-opacity="0.14" stroke-width="1.2"/><line x1="534.7" y1="321.9" x2="547.6" y2="281.7" stroke="#32d9ff" stroke-opacity="0.36" stroke-width="1.2"/><line x1="159.9" y1="313.8" x2="200.1" y2="289.7" stroke="#32d9ff" stroke-opacity="0.33" stroke-width="1.2"/><line x1="463.3" y1="305.8" x2="477.9" y2="257.5" stroke="#32d9ff" stroke-opacity="0.16" stroke-width="1.2"/><line x1="388.6" y1="297.7" x2="355.9" y2="265.6" stroke="#32d9ff" stroke-opacity="0.44" stroke-width="1.2"/><line x1="200.1" y1="289.7" x2="225.8" y2="273.6" stroke="#32d9ff" stroke-opacity="0.20" stroke-width="1.2"/><line x1="200.1" y1="289.7" x2="177.1" y2="249.5" stroke="#32d9ff" stroke-opacity="0.20" stroke-width="1.2"/><line x1="225.8" y1="273.6" x2="177.1" y2="249.5" stroke="#32d9ff" stroke-opacity="0.40" stroke-width="1.2"/><line x1="355.9" y1="265.6" x2="324.8" y2="233.4" stroke="#32d9ff" stroke-opacity="0.14" stroke-width="1.2"/><line x1="477.9" y1="257.5" x2="493.5" y2="241.5" stroke="#32d9ff" stroke-opacity="0.40" stroke-width="1.2"/><line x1="477.9" y1="257.5" x2="505.7" y2="217.4" stroke="#32d9ff" stroke-opacity="0.40" stroke-width="1.2"/><line x1="493.5" y1="241.5" x2="505.7" y2="217.4" stroke="#32d9ff" stroke-opacity="0.21" stroke-width="1.2"/><line x1="324.8" y1="233.4" x2="268.3" y2="225.4" stroke="#32d9ff" stroke-opacity="0.42" stroke-width="1.2"/><line x1="268.3" y1="225.4" x2="244.8" y2="185.2" stroke="#32d9ff" stroke-opacity="0.18" stroke-width="1.2"/><line x1="268.3" y1="225.4" x2="222.3" y2="209.3" stroke="#32d9ff" stroke-opacity="0.18" stroke-width="1.2"/><line x1="222.3" y1="209.3" x2="244.8" y2="185.2" stroke="#32d9ff" stroke-opacity="0.34" stroke-width="1.2"/><line x1="404.0" y1="201.3" x2="404.8" y2="193.2" stroke="#32d9ff" stroke-opacity="0.19" stroke-width="1.2"/><line x1="404.0" y1="201.3" x2="401.3" y2="153.0" stroke="#32d9ff" stroke-opacity="0.19" stroke-width="1.2"/><line x1="404.8" y1="193.2" x2="401.3" y2="153.0" stroke="#32d9ff" stroke-opacity="0.39" stroke-width="1.2"/><line x1="306.2" y1="169.1" x2="338.3" y2="161.1" stroke="#32d9ff" stroke-opacity="0.35" stroke-width="1.2"/><line x1="306.2" y1="169.1" x2="355.0" y2="145.0" stroke="#32d9ff" stroke-opacity="0.35" stroke-width="1.2"/><line x1="338.3" y1="161.1" x2="355.0" y2="145.0" stroke="#32d9ff" stroke-opacity="0.23" stroke-width="1.2"/><line x1="401.3" y1="153.0" x2="355.0" y2="145.0" stroke="#32d9ff" stroke-opacity="0.32" stroke-width="1.2"/></g>
+<g><circle cx="355.0" cy="555.0" r="2.9" fill="#37e5ff" opacity="0.70"><animate attributeName="opacity" values="0.58;1;0.58" dur="2.20s" begin="0s" repeatCount="indefinite"/></circle><circle cx="313.1" cy="547.0" r="3.0" fill="#37e5ff" opacity="0.75"><animate attributeName="opacity" values="0.62;1;0.62" dur="2.51s" begin="-0.23s" repeatCount="indefinite"/></circle><circle cx="362.0" cy="538.9" r="2.4" fill="#37e5ff" opacity="0.60"><animate attributeName="opacity" values="0.50;1;0.50" dur="2.82s" begin="-0.46s" repeatCount="indefinite"/></circle><circle cx="413.7" cy="530.9" r="3.2" fill="#b99aff" opacity="0.79"><animate attributeName="opacity" values="0.65;1;0.65" dur="3.13s" begin="-0.6900000000000001s" repeatCount="indefinite"/></circle><circle cx="246.5" cy="522.8" r="2.8" fill="#37e5ff" opacity="0.68"><animate attributeName="opacity" values="0.56;1;0.56" dur="3.44s" begin="-0.92s" repeatCount="indefinite"/></circle><circle cx="457.9" cy="514.8" r="2.5" fill="#37e5ff" opacity="0.62"><animate attributeName="opacity" values="0.52;1;0.52" dur="3.75s" begin="-1.1500000000000001s" repeatCount="indefinite"/></circle><circle cx="320.7" cy="506.8" r="3.5" fill="#b99aff" opacity="0.86"><animate attributeName="opacity" values="0.70;1;0.70" dur="4.06s" begin="-1.3800000000000001s" repeatCount="indefinite"/></circle><circle cx="290.0" cy="498.7" r="2.2" fill="#37e5ff" opacity="0.55"><animate attributeName="opacity" values="0.46;1;0.46" dur="2.20s" begin="-1.61s" repeatCount="indefinite"/></circle><circle cx="495.1" cy="490.7" r="3.1" fill="#37e5ff" opacity="0.76"><animate attributeName="opacity" values="0.63;1;0.63" dur="2.51s" begin="-1.84s" repeatCount="indefinite"/></circle><circle cx="210.5" cy="482.6" r="3.2" fill="#37e5ff" opacity="0.77"><animate attributeName="opacity" values="0.64;1;0.64" dur="2.82s" begin="0s" repeatCount="indefinite"/></circle><circle cx="424.0" cy="474.6" r="2.1" fill="#37e5ff" opacity="0.52"><animate attributeName="opacity" values="0.44;1;0.44" dur="3.13s" begin="-0.23s" repeatCount="indefinite"/></circle><circle cx="405.5" cy="466.6" r="3.7" fill="#b99aff" opacity="0.90"><animate attributeName="opacity" values="0.74;1;0.74" dur="3.44s" begin="-0.46s" repeatCount="indefinite"/></circle><circle cx="204.5" cy="458.5" r="2.4" fill="#37e5ff" opacity="0.59"><animate attributeName="opacity" values="0.49;1;0.49" dur="3.75s" begin="-0.6900000000000001s" repeatCount="indefinite"/></circle><circle cx="529.5" cy="450.5" r="2.7" fill="#37e5ff" opacity="0.65"><animate attributeName="opacity" values="0.54;1;0.54" dur="4.06s" begin="-0.92s" repeatCount="indefinite"/></circle><circle cx="249.8" cy="442.5" r="3.6" fill="#b99aff" opacity="0.88"><animate attributeName="opacity" values="0.73;1;0.73" dur="2.20s" begin="-1.1500000000000001s" repeatCount="indefinite"/></circle><circle cx="331.0" cy="434.4" r="1.9" fill="#37e5ff" opacity="0.47"><animate attributeName="opacity" values="0.40;1;0.40" dur="2.51s" begin="-1.3800000000000001s" repeatCount="indefinite"/></circle><circle cx="500.5" cy="426.4" r="3.5" fill="#b99aff" opacity="0.85"><animate attributeName="opacity" values="0.70;1;0.70" dur="2.82s" begin="-1.61s" repeatCount="indefinite"/></circle><circle cx="161.9" cy="418.3" r="2.9" fill="#37e5ff" opacity="0.71"><animate attributeName="opacity" values="0.59;1;0.59" dur="3.13s" begin="-1.84s" repeatCount="indefinite"/></circle><circle cx="493.9" cy="410.3" r="2.1" fill="#37e5ff" opacity="0.53"><animate attributeName="opacity" values="0.45;1;0.45" dur="3.44s" begin="0s" repeatCount="indefinite"/></circle><circle cx="345.8" cy="402.3" r="3.9" fill="#b99aff" opacity="0.94"><animate attributeName="opacity" values="0.77;1;0.77" dur="3.75s" begin="-0.23s" repeatCount="indefinite"/></circle><circle cx="226.7" cy="394.2" r="2.1" fill="#37e5ff" opacity="0.51"><animate attributeName="opacity" values="0.43;1;0.43" dur="4.06s" begin="-0.46s" repeatCount="indefinite"/></circle><circle cx="555.0" cy="386.2" r="3.0" fill="#37e5ff" opacity="0.73"><animate attributeName="opacity" values="0.61;1;0.61" dur="2.20s" begin="-0.6900000000000001s" repeatCount="indefinite"/></circle><circle cx="188.3" cy="378.1" r="3.4" fill="#b99aff" opacity="0.84"><animate attributeName="opacity" values="0.69;1;0.69" dur="2.51s" begin="-0.92s" repeatCount="indefinite"/></circle><circle cx="399.8" cy="370.1" r="1.8" fill="#37e5ff" opacity="0.46"><animate attributeName="opacity" values="0.39;1;0.39" dur="2.82s" begin="-1.1500000000000001s" repeatCount="indefinite"/></circle><circle cx="456.7" cy="362.1" r="3.8" fill="#b99aff" opacity="0.92"><animate attributeName="opacity" values="0.75;1;0.75" dur="3.13s" begin="-1.3800000000000001s" repeatCount="indefinite"/></circle><circle cx="159.7" cy="354.0" r="2.5" fill="#37e5ff" opacity="0.62"><animate attributeName="opacity" values="0.52;1;0.52" dur="3.44s" begin="-1.61s" repeatCount="indefinite"/></circle><circle cx="541.1" cy="346.0" r="2.4" fill="#37e5ff" opacity="0.60"><animate attributeName="opacity" values="0.50;1;0.50" dur="3.75s" begin="-1.84s" repeatCount="indefinite"/></circle><circle cx="276.0" cy="337.9" r="3.8" fill="#b99aff" opacity="0.93"><animate attributeName="opacity" values="0.76;1;0.76" dur="4.06s" begin="0s" repeatCount="indefinite"/></circle><circle cx="286.0" cy="329.9" r="1.9" fill="#37e5ff" opacity="0.47"><animate attributeName="opacity" values="0.39;1;0.39" dur="2.20s" begin="-0.23s" repeatCount="indefinite"/></circle><circle cx="534.7" cy="321.9" r="3.3" fill="#b99aff" opacity="0.82"><animate attributeName="opacity" values="0.67;1;0.67" dur="2.51s" begin="-0.46s" repeatCount="indefinite"/></circle><circle cx="159.9" cy="313.8" r="3.1" fill="#37e5ff" opacity="0.76"><animate attributeName="opacity" values="0.63;1;0.63" dur="2.82s" begin="-0.6900000000000001s" repeatCount="indefinite"/></circle><circle cx="463.3" cy="305.8" r="2.0" fill="#37e5ff" opacity="0.49"><animate attributeName="opacity" values="0.42;1;0.42" dur="3.13s" begin="-0.92s" repeatCount="indefinite"/></circle><circle cx="388.6" cy="297.7" r="3.9" fill="#b99aff" opacity="0.94"><animate attributeName="opacity" values="0.77;1;0.77" dur="3.44s" begin="-1.1500000000000001s" repeatCount="indefinite"/></circle><circle cx="200.1" cy="289.7" r="2.2" fill="#37e5ff" opacity="0.55"><animate attributeName="opacity" values="0.46;1;0.46" dur="3.75s" begin="-1.3800000000000001s" repeatCount="indefinite"/></circle><circle cx="547.6" cy="281.7" r="2.8" fill="#37e5ff" opacity="0.68"><animate attributeName="opacity" values="0.56;1;0.56" dur="4.06s" begin="-1.61s" repeatCount="indefinite"/></circle><circle cx="225.8" cy="273.6" r="3.6" fill="#b99aff" opacity="0.87"><animate attributeName="opacity" values="0.72;1;0.72" dur="2.20s" begin="-1.84s" repeatCount="indefinite"/></circle><circle cx="355.9" cy="265.6" r="1.9" fill="#37e5ff" opacity="0.47"><animate attributeName="opacity" values="0.40;1;0.40" dur="2.51s" begin="0s" repeatCount="indefinite"/></circle><circle cx="477.9" cy="257.5" r="3.5" fill="#b99aff" opacity="0.87"><animate attributeName="opacity" values="0.71;1;0.71" dur="2.82s" begin="-0.23s" repeatCount="indefinite"/></circle><circle cx="177.1" cy="249.5" r="2.8" fill="#37e5ff" opacity="0.68"><animate attributeName="opacity" values="0.56;1;0.56" dur="3.13s" begin="-0.46s" repeatCount="indefinite"/></circle><circle cx="493.5" cy="241.5" r="2.3" fill="#37e5ff" opacity="0.57"><animate attributeName="opacity" values="0.48;1;0.48" dur="3.44s" begin="-0.6900000000000001s" repeatCount="indefinite"/></circle><circle cx="324.8" cy="233.4" r="3.7" fill="#b99aff" opacity="0.90"><animate attributeName="opacity" values="0.74;1;0.74" dur="3.75s" begin="-0.92s" repeatCount="indefinite"/></circle><circle cx="268.3" cy="225.4" r="2.1" fill="#37e5ff" opacity="0.53"><animate attributeName="opacity" values="0.45;1;0.45" dur="4.06s" begin="-1.1500000000000001s" repeatCount="indefinite"/></circle><circle cx="505.7" cy="217.4" r="3.1" fill="#37e5ff" opacity="0.75"><animate attributeName="opacity" values="0.62;1;0.62" dur="2.20s" begin="-1.3800000000000001s" repeatCount="indefinite"/></circle><circle cx="222.3" cy="209.3" r="3.2" fill="#37e5ff" opacity="0.78"><animate attributeName="opacity" values="0.65;1;0.65" dur="2.51s" begin="-1.61s" repeatCount="indefinite"/></circle><circle cx="404.0" cy="201.3" r="2.2" fill="#37e5ff" opacity="0.54"><animate attributeName="opacity" values="0.45;1;0.45" dur="2.82s" begin="-1.84s" repeatCount="indefinite"/></circle><circle cx="404.8" cy="193.2" r="3.5" fill="#b99aff" opacity="0.85"><animate attributeName="opacity" values="0.70;1;0.70" dur="3.13s" begin="0s" repeatCount="indefinite"/></circle><circle cx="244.8" cy="185.2" r="2.6" fill="#37e5ff" opacity="0.64"><animate attributeName="opacity" values="0.53;1;0.53" dur="3.44s" begin="-0.23s" repeatCount="indefinite"/></circle><circle cx="460.3" cy="177.2" r="2.7" fill="#37e5ff" opacity="0.66"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.75s" begin="-0.46s" repeatCount="indefinite"/></circle><circle cx="306.2" cy="169.1" r="3.3" fill="#b99aff" opacity="0.80"><animate attributeName="opacity" values="0.66;1;0.66" dur="4.06s" begin="-0.6900000000000001s" repeatCount="indefinite"/></circle><circle cx="338.3" cy="161.1" r="2.5" fill="#37e5ff" opacity="0.61"><animate attributeName="opacity" values="0.50;1;0.50" dur="2.20s" begin="-0.92s" repeatCount="indefinite"/></circle><circle cx="401.3" cy="153.0" r="3.0" fill="#37e5ff" opacity="0.74"><animate attributeName="opacity" values="0.61;1;0.61" dur="2.51s" begin="-1.1500000000000001s" repeatCount="indefinite"/></circle><circle cx="355.0" cy="145.0" r="2.9" fill="#37e5ff" opacity="0.70"><animate attributeName="opacity" values="0.58;1;0.58" dur="2.82s" begin="-1.3800000000000001s" repeatCount="indefinite"/></circle></g>
+<circle cx="355" cy="350" r="125" fill="none" stroke="#43e3ff" stroke-opacity=".08" stroke-width="28" filter="url(#blur)"/>
+<!-- orbit sparks -->
+<g fill="#a5f4ff" filter="url(#glow)"><circle cx="114" cy="292" r="3"/><circle cx="575" cy="300" r="3"/><circle cx="500" cy="520" r="2.5"/><circle cx="220" cy="500" r="2.5"/></g>
+<!-- skill labels -->
 <g class="sans">
- <rect x="47" y="184" width="124" height="34" rx="17" fill="#0d2035" stroke="#315b83"/><circle cx="64" cy="201" r="4" fill="#4de2ff"/><text x="77" y="205" class="chip">MACHINE LEARNING</text>
- <rect x="430" y="184" width="132" height="34" rx="17" fill="#0d2035" stroke="#315b83"/><circle cx="447" cy="201" r="4" fill="#a78bfa"/><text x="460" y="205" class="chip">FULL-STACK</text>
- <rect x="53" y="438" width="112" height="34" rx="17" fill="#0d2035" stroke="#315b83"/><circle cx="70" cy="455" r="4" fill="#a78bfa"/><text x="83" y="459" class="chip">DEVSECOPS</text>
- <rect x="423" y="438" width="139" height="34" rx="17" fill="#0d2035" stroke="#315b83"/><circle cx="440" cy="455" r="4" fill="#4de2ff"/><text x="453" y="459" class="chip">AGENTIC AI</text>
+ <rect x="62" y="470" width="160" height="40" rx="10" fill="#101f35" stroke="#315c7e"/><circle cx="82" cy="490" r="4" fill="#36def4"/><text x="96" y="495" class="white" font-size="14">Machine Learning</text>
+ <rect x="238" y="530" width="150" height="40" rx="10" fill="#101f35" stroke="#315c7e"/><circle cx="258" cy="550" r="4" fill="#9f80ff"/><text x="272" y="555" class="white" font-size="14">Agentic AI</text>
+ <rect x="405" y="470" width="210" height="40" rx="10" fill="#101f35" stroke="#315c7e"/><circle cx="425" cy="490" r="4" fill="#36def4"/><text x="439" y="495" class="white" font-size="14">Full-Stack Engineering</text>
 </g>
-<text x="300" y="548" text-anchor="middle" class="mono muted" font-size="11" letter-spacing="2">LEARN  /  DESIGN  /  DEPLOY</text>
-
-<!-- Right content panel -->
-<rect x="600" y="91" width="560" height="455" rx="18" fill="url(#glass)" stroke="#2d4767" stroke-width="1.2"/>
-<path d="M600 130V109Q600 91 618 91H1142" fill="none" stroke="url(#accent)" stroke-width="2.5"/>
-<text x="632" y="132" class="sans muted eyebrow">HELLO, I'M</text>
-<text x="630" y="174" class="sans white" font-size="34" font-weight="750" letter-spacing="-.8">Lakshay Khanna</text>
-<text x="632" y="202" class="sans cyan" font-size="17" font-weight="600">AI/ML &amp; Full-Stack Developer</text>
-<text x="632" y="230" class="sans muted" font-size="13">B.Tech Computer Science · JIIT Noida · 2023–2027</text>
-<path d="M632 252H1128" stroke="#2b405b"/>
-<text x="632" y="280" class="sans section">WHAT I BUILD</text>
-<g class="sans body">
- <circle cx="640" cy="306" r="3" fill="#55ddff"/><text x="654" y="311">Agentic AI systems, RAG &amp; multi-agent workflows</text>
- <circle cx="640" cy="333" r="3" fill="#55ddff"/><text x="654" y="338">Deep learning &amp; intelligent threat detection</text>
- <circle cx="640" cy="360" r="3" fill="#55ddff"/><text x="654" y="365">Secure, scalable full-stack applications</text>
-</g>
-<path d="M632 385H1128" stroke="#2b405b"/>
-<text x="632" y="412" class="sans section">SELECTED ENGINEERING WORK</text>
+<!-- right profile card -->
+<rect x="675" y="130" width="485" height="470" rx="20" fill="url(#card)" stroke="#284968"/>
+<text x="708" y="166" class="mono cyan eyebrow">02 / PROFILE</text>
+<text x="708" y="205" class="sans white" font-size="26" font-weight="700">AI/ML &amp; Software Engineer</text>
+<text x="708" y="233" class="sans muted" font-size="15">B.Tech Computer Science · JIIT Noida · 2023–2027</text>
+<path d="M708 256H1127" stroke="#2b405b"/>
+<text x="708" y="285" class="mono cyan section">AREAS OF FOCUS</text>
 <g class="sans">
- <rect x="632" y="429" width="153" height="82" rx="10" fill="#0b1b30" stroke="#2a5277"/>
- <text x="646" y="453" class="white" font-size="13" font-weight="700">CodeGuardian AI</text>
- <text x="646" y="474" class="muted" font-size="11">Multi-agent code</text><text x="646" y="490" class="muted" font-size="11">review &amp; remediation</text>
- <rect x="800" y="429" width="153" height="82" rx="10" fill="#0b1b30" stroke="#2a5277"/>
- <text x="814" y="453" class="white" font-size="13" font-weight="700">SecureNet AI</text>
- <text x="814" y="474" class="muted" font-size="11">Deep-learning network</text><text x="814" y="490" class="muted" font-size="11">intrusion detection</text>
- <rect x="968" y="429" width="160" height="82" rx="10" fill="#0b1b30" stroke="#2a5277"/>
- <text x="982" y="453" class="white" font-size="13" font-weight="700">Watchboard</text>
- <text x="982" y="474" class="muted" font-size="11">Product price &amp; stock</text><text x="982" y="490" class="muted" font-size="11">monitoring platform</text>
+ <rect x="708" y="301" width="124" height="32" rx="16" fill="#112c40" stroke="#23647b"/><text x="770" y="322" text-anchor="middle" class="white chip">Agentic AI</text>
+ <rect x="842" y="301" width="132" height="32" rx="16" fill="#172542" stroke="#475b9b"/><text x="908" y="322" text-anchor="middle" class="white chip">Deep Learning</text>
+ <rect x="984" y="301" width="143" height="32" rx="16" fill="#211c3c" stroke="#66519b"/><text x="1055" y="322" text-anchor="middle" class="white chip">Cybersecurity</text>
 </g>
-
-<!-- Bottom capability bar -->
-<path d="M40 574H1160" stroke="#2a3c55"/>
-<text x="48" y="600" class="sans muted" font-size="11" font-weight="700" letter-spacing="1.3">CORE TOOLKIT</text>
-<text x="158" y="600" class="sans white" font-size="13">Python</text><circle cx="215" cy="596" r="2" fill="#59718f"/>
-<text x="229" y="600" class="sans white" font-size="13">PyTorch</text><circle cx="293" cy="596" r="2" fill="#59718f"/>
-<text x="307" y="600" class="sans white" font-size="13">LangGraph</text><circle cx="390" cy="596" r="2" fill="#59718f"/>
-<text x="404" y="600" class="sans white" font-size="13">FastAPI</text><circle cx="466" cy="596" r="2" fill="#59718f"/>
-<text x="480" y="600" class="sans white" font-size="13">React</text><circle cx="530" cy="596" r="2" fill="#59718f"/>
-<text x="544" y="600" class="sans white" font-size="13">PostgreSQL</text>
-<text x="810" y="600" class="sans cyan" font-size="13" font-weight="700">DREAM</text><text x="872" y="600" class="sans muted" font-size="13">·</text><text x="892" y="600" class="sans white" font-size="13" font-weight="700">CODE</text><text x="938" y="600" class="sans muted" font-size="13">·</text><text x="958" y="600" class="sans lav" font-size="13" font-weight="700">BUILD</text>
-<path d="M40 614H1160" stroke="url(#accent)" stroke-opacity=".65"/>
+<path d="M708 354H1127" stroke="#2b405b"/>
+<text x="708" y="383" class="mono cyan section">CORE TOOLKIT</text>
+<g class="sans">
+ <rect x="708" y="399" width="91" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="753" y="421" text-anchor="middle" class="white chip">Python</text>
+ <rect x="808" y="399" width="72" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="844" y="421" text-anchor="middle" class="white chip">C++</text>
+ <rect x="889" y="399" width="76" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="927" y="421" text-anchor="middle" class="white chip">SQL</text>
+ <rect x="974" y="399" width="92" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="1020" y="421" text-anchor="middle" class="white chip">React</text>
+ <rect x="1075" y="399" width="52" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="1101" y="421" text-anchor="middle" class="white chip">JS</text>
+ <rect x="708" y="443" width="100" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="758" y="465" text-anchor="middle" class="white chip">PyTorch</text>
+ <rect x="817" y="443" width="108" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="871" y="465" text-anchor="middle" class="white chip">LangGraph</text>
+ <rect x="934" y="443" width="100" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="984" y="465" text-anchor="middle" class="white chip">FastAPI</text>
+ <rect x="1043" y="443" width="84" height="34" rx="8" fill="#142b42" stroke="#315777"/><text x="1085" y="465" text-anchor="middle" class="white chip">Docker</text>
+</g>
+<path d="M708 495H1127" stroke="#2b405b"/>
+<text x="708" y="524" class="mono cyan section">CURRENTLY BUILDING</text>
+<text x="708" y="552" class="sans white" font-size="15">Multi-agent workflows · Secure AI systems</text>
+<text x="708" y="576" class="sans muted" font-size="14">Turning research ideas into practical software.</text>
+<!-- bottom highlight strip -->
+<rect x="40" y="620" width="1120" height="66" rx="16" fill="#0b1728" stroke="#304967"/>
+<g>
+ <text x="68" y="648" class="mono violet" font-size="12" letter-spacing="1.5">PROBLEM SOLVING</text>
+ <text x="68" y="673" class="sans white" font-size="22" font-weight="700">300+ <tspan class="muted" font-size="14" font-weight="400">LeetCode problems</tspan></text>
+ <path d="M390 634V673" stroke="#31455f"/>
+ <text x="422" y="648" class="mono violet" font-size="12" letter-spacing="1.5">FEATURED WORK</text>
+ <text x="422" y="673" class="sans white" font-size="17" font-weight="650">CodeGuardian AI  ·  SecureNet AI</text>
+ <path d="M830 634V673" stroke="#31455f"/>
+ <text x="860" y="648" class="mono violet" font-size="12" letter-spacing="1.5">MY APPROACH</text>
+ <text x="860" y="673" class="sans cyan" font-size="17" font-weight="700">DREAM  ·  DESIGN  ·  BUILD</text>
+</g>
 </svg>
